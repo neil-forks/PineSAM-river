@@ -15,5 +15,5 @@ nav:
   - Backend: user-guide/Backend.md
   -Troubleshooting: Troubleshooting.md
 
-theme: readthedocs
+theme: 
 
