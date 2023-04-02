@@ -40,9 +40,6 @@ Why focus on soldering when you can play with the settings instead? With this ap
  | backend |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
 <br>
 
-# :desktop_computer: Install Options
-
-
 
 ## :signal_strength: Remote access
 
