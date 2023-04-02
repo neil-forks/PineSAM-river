@@ -5,7 +5,8 @@
 - Setting numbers can be changed two ways: moving the slider or simply typing on the box next to the slider.
 - Drop-down menus are used for clarity of text choices.
 - Toggle choices are used for all check box items ballot_box_with_check seen on the pinecil (e.g. detailed idle).
-
+- For details on Pinecil settings functionality, please see [Ralim's IronOS here](https://ralim.github.io/IronOS/Settings/).
+<br>
 <img src="../assets/img/categories.png" width="800" >
 
 <details>
