@@ -11,18 +11,9 @@ nav:
       - Premade Binaries: install-guide/Premade-binaries.md
       - Build from Scripts: install-guide/Dev-scripts.md
   - Operation: user-guide/Usage.md
-    - Settings Categories: user-guide/Settings.md
-    - Backend: user-guide/Backend.md
+  - Settings Categories: user-guide/Settings.md
+  - Backend: user-guide/Backend.md
   -Troubleshooting: Troubleshooting.md
-
-extra:
-  social:
-    - icon: simple/github
-      link: https://github.com/builder555/PineSAM
-      name: GitHub
-    - icon: fontawesome/solid/heart
-      link: https://github.com/sponsors/builder555
-      name: Sponsor the project
 
 theme: readthedocs
 
