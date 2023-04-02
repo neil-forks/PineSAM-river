@@ -5,7 +5,7 @@
 - Setting numbers can be changed two ways: moving the slider or simply typing on the box next to the slider.
 - Drop-down menus are used for clarity of text choices.
 - Toggle choices are used for all check box items ballot_box_with_check seen on the pinecil (e.g. detailed idle).
-- For details on Pinecil settings functionality, please see [Ralim's IronOS here](https://ralim.github.io/IronOS/Settings/).
+- Settings functions are listed [Ralim's IronOS here](https://ralim.github.io/IronOS/Settings/).
 <br>
 <img src="../assets/img/categories.png" width="800" >
 
@@ -22,5 +22,4 @@ Full settings view
 - On Pinecil, the debug menu is accesed by Long hold [-] and then use the [+] to scroll through the values (see here).
 - PineSAM currently displays the raw values as sent by the Pinecil and does no change to the values; therefore, these may not match exactly what you see on the Pinecil Debug screen.
 - Not all values are available yet, e.g., PD Debug values can only be seen on Pinecil.
-
-
+- Debug functions are listed in [Ralim's IronOS here](https://ralim.github.io/IronOS/DebugMenu/).
