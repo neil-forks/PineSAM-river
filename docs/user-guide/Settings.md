@@ -6,17 +6,13 @@
 - Drop-down menus are used for clarity of text choices.
 - Toggle choices are used for all check box items ballot_box_with_check seen on the pinecil (e.g. detailed idle).
 
-
-<figure markdown>
-![](../assets/img/settings/categories.png)
-<figcaption>Settings categories</figcaption>
-</figure>
+<img src="../assets/img/categories.png" width="800" >
 
 <details>
 <summary>
 Full settings view
 </summary>
-<img src="/PineSAM/assets/img/settings/all.png">
+<img src="../assets/img/full_settings.png">
 </details>
 
 ## Debug Data
