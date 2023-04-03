@@ -13,9 +13,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 <details>
   <summary>
-    
-#### Full settings view
-
+    Full settings view
   </summary>
 
 <img src="./img/full_settings.png" width="900"> 

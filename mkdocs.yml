@@ -1,5 +1,10 @@
+---
+
+# Project info
 site_name: PineSAM
 site_url: https://builder555.github.io/PineSAM/
+
+# 
 repo_name: PineSAM
 repo_url: https://github.com/builder555/PineSAM/
 site_description: "PineSAM is a Bluetooth BLE app to control the Pinecil V2 through a browser."
@@ -15,5 +20,48 @@ nav:
   - Operation: user-guides/Usage.md
   - Settings Categories: user-guides/Settings.md
  
-theme: 
+# Theme and config
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  highlightjs: true
+  hljs_languages:
+    - bash
+    - python
+    - yaml
+    - javascript
+    - powershell
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - toc.integrate
 
+# Plugins
+plugins:
+  - autolinks
+  - awesome-pages
+  - git-revision-date
+  - search
+
+# Markdown Extensions
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
