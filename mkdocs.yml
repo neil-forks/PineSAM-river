@@ -8,12 +8,12 @@ edit_uri: edit/dev/docs/
 nav:
   - Home: index.md
   - Installation:
-      - Premade Binaries: install-guide/Premade-binaries.md
-      - Build from Scripts: install-guide/Dev-scripts.md
-  - Operation: user-guide/Usage.md
-  - Settings Categories: user-guide/Settings.md
-  - Backend: user-guide/Backend.md
-  -Troubleshooting: Troubleshooting.md
-
+      - Premade Binaries: install-guides/Premade-binaries.md
+      - Build from Scripts: install-guides/Dev-scripts.md
+      - Backend Server: install-guides/Backend.md
+  - Troubleshooting: Troubleshooting.md
+  - Operation: user-guides/Usage.md
+  - Settings Categories: user-guides/Settings.md
+ 
 theme: 
 
