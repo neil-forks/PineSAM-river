@@ -1,7 +1,7 @@
 
-## Pinecil Settings and Menus
+# PineSAM = Pinecil Settings and Menus
 
-<img src="./img/workHUD.png" align="right" width="350" >
+![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=right width=350 style="margin-top: -1rem" }
 
 Why focus on soldering when you can play with the settings instead? With this app you have full control over your new shiny Pinecil V2 from your computer using bluetooth.
 
@@ -9,18 +9,16 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 **NB**: This app needs the python backend to run on a computer, it CANNOT run entirely in the browser like Joric's UI.
 
-
-<details>
+<details markdown>
   <summary>
     Full settings view
   </summary>
-
-<img src="./img/full_settings.png" width="950"> 
-
+  ![Full Settings View](img/full_settings.png)
 </details>
-<br clear="right"/>
 
-# Features
+<div style="clear: both;"></div>
+
+## 💫 Features
 
 -  Automatically detect Pinecil V2 over BLE.
 - Control all settings on the device.
