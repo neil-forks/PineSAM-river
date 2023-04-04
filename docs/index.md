@@ -1,15 +1,18 @@
-<img src=".//img/PineSAM_logo-A017A5.png" align="left" width="150" height="48" style="float:left"> <br clear="left" />
----
-<br>
-<img src="./img/workHUD.png" align="right" width="350" style="float:left">
 
-#### PineSAM = Pinecil Settings and Menus
+
+
+### PineSAM = Pinecil Settings and Menus
+<br clear="both">
+
+<img src="./img/workHUD.png" align="right" width="350" >
 
 Why focus on soldering when you can play with the settings instead? With this app you have full control over your new shiny Pinecil V2 from your computer using bluetooth.
 
 **NB**: No special browser BLE GATT or flags required and works on all major OS/devices.
 
 **NB**: This app needs the python backend to run on a computer, it CANNOT run entirely in the browser like Joric's UI.
+
+
 
 <details>
   <summary>
@@ -21,7 +24,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 </details>
 <br clear="right"/>
 
-# 💫 Features
+# Features
 
 - [x] Automatically detect Pinecil V2 over BLE.
 - [x] Control all settings on the device.
@@ -32,11 +35,10 @@ Why focus on soldering when you can play with the settings instead? With this ap
 - [X] Usage details in [PineSAM wiki](https://github.com/builder555/PineSAM/wiki).
 
 ## Platforms
- | System  | MacOS | Linux | Windows | iOS | Android|
- | :-----: | :-----: | :---: | :---: | :-: | :----: |
+ | System  | MacOS   | Linux  | Windows | iOS   | Android|
+ | :-----: | :-----: | :----: | :-----: | :---: | :----: |
  | UI      |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
- | backend |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
-<br>
+ | backend |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|       |         |
 
 
 ## :signal_strength: Remote access
@@ -49,7 +51,7 @@ You can access the settings remotely once the app is running on the main PC/lapt
 
 
 
-## 🛠️ Running Unit tests
+## Running Unit tests
 
 ```shell
 # run inside 'backend' directory:
