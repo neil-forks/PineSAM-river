@@ -1,4 +1,5 @@
----
+
+
 nav:
-    - Operation: user-guides/usage.md
+    - User Guide: user-guides/usage.md
     - Settings Categories: user-guides/settings.md
