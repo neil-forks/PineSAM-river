@@ -18,6 +18,11 @@ Why focus on soldering when you can play with the settings instead? With this ap
 </details>
 
 <div style="clear: both;"></div>
+## Platforms
+ | System  | MacOS   | Linux  | Windows | iOS   | Android|
+ | :-----: | :-----: | :----: | :-----: | :---: | :----: |
+ | UI      |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+ | backend |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|       |         |
 
 ## Features
 
@@ -28,14 +33,8 @@ Why focus on soldering when you can play with the settings instead? With this ap
 -  Preset buttons to allow quick change of user defined temperatures (PineSAM extra feature not available directly inside Pinecil).
 -  Backend runs locally on all major platforms/OS while the user interface runs on your favorite browser.
 
-## Platforms
- | System  | MacOS   | Linux  | Windows | iOS   | Android|
- | :-----: | :-----: | :----: | :-----: | :---: | :----: |
- | UI      |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
- | backend |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|       |         |
 
-
-## :signal_strength: Remote access
+## :material-signal-cellular-2: Remote access
 
 You can access the settings remotely once the app is running on the main PC/laptop.
 
@@ -43,18 +42,11 @@ You can access the settings remotely once the app is running on the main PC/lapt
 * open `http://<ip-address>:8080/` on the second device on the same network (e.g., a phone).
 * Pinecil needs to be within BLE range of the computer running the PineSAM app.
 
-
 ## :abacus: Contributors Welcome
 
 Please fork the repo, and submit Pull Requests using the `/dev` branch.
 
 
-## Running Unit tests
-
-```shell
-# run inside 'backend' directory:
-pipenv run test
-```
 
 ## :book: References
 

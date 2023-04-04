@@ -1,3 +1,9 @@
+## :octicons-terminal-24: Running Unit tests
+
+```shell
+# run inside 'backend' directory:
+pipenv run test
+```
 
 ## 🚧 Known issues
 1. bleak causes Python to crash on Mac: https://github.com/hbldh/bleak/issues/768
