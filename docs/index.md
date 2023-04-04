@@ -1,7 +1,5 @@
 
-
-
-### PineSAM = Pinecil Settings and Menus
+## Pinecil Settings and Menus
 
 <img src="./img/workHUD.png" align="right" width="350" >
 
@@ -12,13 +10,12 @@ Why focus on soldering when you can play with the settings instead? With this ap
 **NB**: This app needs the python backend to run on a computer, it CANNOT run entirely in the browser like Joric's UI.
 
 
-
 <details>
   <summary>
     Full settings view
   </summary>
 
-<img src="./img/full_settings.png" width="900"> 
+<img src="./img/full_settings.png" width="950"> 
 
 </details>
 <br clear="right"/>
@@ -31,7 +28,6 @@ Why focus on soldering when you can play with the settings instead? With this ap
 -  Work HUD main screen with: Set °C/°F `[+][-]` buttons, live tip °C/°F updates, peak watts, live watts, input voltage.
 -  Preset buttons to allow quick change of user defined temperatures (PineSAM extra feature not available directly inside Pinecil).
 -  Backend runs locally on all major platforms/OS while the user interface runs on your favorite browser.
--  Usage details in [PineSAM wiki](https://github.com/builder555/PineSAM/wiki).
 
 ## Platforms
  | System  | MacOS   | Linux  | Windows | iOS   | Android|
@@ -48,6 +44,10 @@ You can access the settings remotely once the app is running on the main PC/lapt
 * open `http://<ip-address>:8080/` on the second device on the same network (e.g., a phone).
 * Pinecil needs to be within BLE range of the computer running the PineSAM app.
 
+
+## :abacus: Contributors Welcome
+
+Please fork the repo, and submit Pull Requests using the `/dev` branch.
 
 
 ## Running Unit tests

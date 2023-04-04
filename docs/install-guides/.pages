@@ -1,8 +1,8 @@
 ---
 nav:
-- Installation:
-   - Premade Binaries: install-guides/Premade-binaries.md
-   - Build from Scripts: install-guides/Dev-scripts.md
-   - Backend Server: install-guides/Backend.md
-   - Troubleshooting: Troubleshooting.md
+   - Installation:
+     - Premade Binaries: install-guides/premade-binaries.md
+     - Build from Scripts: install-guides/dev-scripts.md
+     - Backend Server: install-guides/backend.md
+     - Troubleshooting: troubleshooting.md
 
