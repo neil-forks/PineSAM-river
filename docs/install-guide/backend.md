@@ -1,4 +1,4 @@
-## Backend servers
+# Backend servers
 
 * Python scripts run the backend server inside a terminal window (e.g. powershell)
 * Terminal messages contain useful information for devs and troubleshooting.

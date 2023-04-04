@@ -1,4 +1,4 @@
-##  Install Dev version from scripts
+#  Install Dev version from scripts
 
 Use this dev version if there is an issue with the premade binaries or you want to do development.
  
