@@ -13,6 +13,7 @@ edit_uri: edit/dev/docs/
 # Theme and config
 theme:
   name: material
+  logo: img/favicon.ico
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
