@@ -2,7 +2,6 @@
 
 
 ### PineSAM = Pinecil Settings and Menus
-<br clear="both">
 
 <img src="./img/workHUD.png" align="right" width="350" >
 
@@ -26,13 +25,13 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 # Features
 
-- [x] Automatically detect Pinecil V2 over BLE.
-- [x] Control all settings on the device.
-- [X] Save to Flash: toggle to save changes directly onto Pinecil (leave off unless actively changing settings).
-- [X] Work HUD main screen with: Set °C/°F `[+][-]` buttons, live tip °C/°F updates, peak watts, live watts, input voltage.
-- [X] Preset buttons to allow quick change of user defined temperatures (PineSAM extra feature not available directly inside Pinecil).
-- [X] Backend runs locally on all major platforms/OS while the user interface runs on your favorite browser.
-- [X] Usage details in [PineSAM wiki](https://github.com/builder555/PineSAM/wiki).
+-  Automatically detect Pinecil V2 over BLE.
+- Control all settings on the device.
+-  Save to Flash: toggle to save changes directly onto Pinecil (leave off unless actively changing settings).
+-  Work HUD main screen with: Set °C/°F `[+][-]` buttons, live tip °C/°F updates, peak watts, live watts, input voltage.
+-  Preset buttons to allow quick change of user defined temperatures (PineSAM extra feature not available directly inside Pinecil).
+-  Backend runs locally on all major platforms/OS while the user interface runs on your favorite browser.
+-  Usage details in [PineSAM wiki](https://github.com/builder555/PineSAM/wiki).
 
 ## Platforms
  | System  | MacOS   | Linux  | Windows | iOS   | Android|
