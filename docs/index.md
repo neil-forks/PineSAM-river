@@ -1,5 +1,5 @@
 
-# PineSAM = Pinecil Settings and Menus
+# Pinecil Settings and Menus
 
 ![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=right width=350 style="margin-top: -1rem" }
 
@@ -18,7 +18,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 <div style="clear: both;"></div>
 
-## 💫 Features
+## Features
 
 -  Automatically detect Pinecil V2 over BLE.
 - Control all settings on the device.
