@@ -48,6 +48,7 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.tracking
     - navigation.path
     - search.highlight
