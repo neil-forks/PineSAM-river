@@ -1,8 +1,8 @@
 
 nav:
     - Home: index.md
-    - Install Guide: install-guide
-    - User Guide: user-guide
+    - Install Guide: install-guide/
+    - User Guide: user-guide/
     - About: about.md
     - PineSAM: https://github.com/builder555/PineSAM
     
