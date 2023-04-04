@@ -1,6 +1,6 @@
 
 nav:
-    - Getting Started: index.md
+    - Home: index.md
     - Install Guides: install-guides
     - User Guides: user-guides
     - About: about.md
