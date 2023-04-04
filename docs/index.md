@@ -8,6 +8,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 **NB**: No special browser BLE GATT or flags required and works on all major OS/devices.
 
 **NB**: This app needs the python backend to run on a computer, it CANNOT run entirely in the browser like Joric's UI.
+<div style="clear: right;"></div>
 
 <details markdown>
   <summary>
