@@ -16,6 +16,8 @@ theme:
   name: material
   logo: img/PineSAM_logo-A017A5.png
   favicon: img/favicon.ico
+  font:
+    text: Red Hat Text
   icon:
     edit: material/file-edit-outline
     repo: fontawesome/brands/github
@@ -23,7 +25,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: cyan
-      accent: cyan
+      accent: purple
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
