@@ -23,7 +23,7 @@
 
 ## Work HUD View
 
-<img src="./img/hud/hud.png" width="480px" align="right">
+![Full Settings View](img/workHUD-detailed.png)
 
 1. This is a HUD window designed as an all-in-one single view that can be used during soldering.
 2. Phone: designed to be completely viewable on vertical screen.

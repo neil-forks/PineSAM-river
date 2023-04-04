@@ -86,7 +86,12 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.tabbed:
@@ -95,6 +100,4 @@ markdown_extensions:
   - pymdownx.tasklist
   - footnotes
   - def_list
-  # Metadata support in pages
-  # (https://squidfunk.github.io/mkdocs-material/extensions/metadata)
   - meta
