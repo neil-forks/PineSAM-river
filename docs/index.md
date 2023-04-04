@@ -1,5 +1,7 @@
+# Getting Started
 
-# Pinecil Settings and Menus
+
+## Pinecil Settings and Menus
 
 ![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=right width=350 style="margin-top: -1rem" }
 
