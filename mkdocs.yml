@@ -59,16 +59,12 @@ plugins:
   - search
   - git-authors:
       show_contribution: true
-      show_line_count: true
-      show_email_address: false
-      count_empty_lines: true
       fallback_to_empty: true
       sort_authors_by: contribution
-      authorship_threshold_percent: 0
-      enabled: true
-
-
-
+  -git-committers:
+     repository: neil-forks/PineSAM-river
+     branch: master
+     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - awesome-pages:
         collapse_single_pages: true
   - i18n:
@@ -87,6 +83,7 @@ plugins:
           ru: Russian
   - git-revision-date-localized:
       type: date
+
 
 extra:
   alternate:
@@ -130,9 +127,12 @@ extra:
 
 # Markdown Extensions
 markdown_extensions:
+  # Adds ability to define abbreviations
   - abbr
   - attr_list
+  # block-styled side content
   - admonition
+  # Table of Contents
   - toc:
       permalink: "🔗&#xFE0E;"
   - md_in_html
@@ -148,5 +148,8 @@ markdown_extensions:
   - pymdownx.tasklist
   - footnotes
   - def_list
+  # Metadata support in pages
+  # (https://squidfunk.github.io/mkdocs-material/extensions/metadata)
   - meta
+   
    

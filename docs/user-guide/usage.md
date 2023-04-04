@@ -1,4 +1,4 @@
-## Usage
+## User Guide
 
 1. Click on PineSAM logo to reveal the unique BLE name of your Pinecil.
 2. Update available notice appears under the PineSAM logo if a new release is available for download.
