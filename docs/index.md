@@ -24,7 +24,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 -  Automatically detect Pinecil V2 over BLE.
 - Control all settings on the device.
 -  Save to Flash: toggle to save changes directly onto Pinecil (leave off unless actively changing settings).
--  Work HUD main screen with: Set °C/°F `[+][-]` buttons, live tip °C/°F updates, peak watts, live watts, input voltage.
+-  Work HUD main screen with: Set °C/°F `[+] [-]` buttons, live tip °C/°F updates, peak watts, live watts, input voltage.
 -  Preset buttons to allow quick change of user defined temperatures (PineSAM extra feature not available directly inside Pinecil).
 -  Backend runs locally on all major platforms/OS while the user interface runs on your favorite browser.
 
