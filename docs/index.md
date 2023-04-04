@@ -9,7 +9,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 **NB**: This app needs the python backend to run on a computer, it CANNOT run entirely in the browser like Joric's UI.
 
-<details>
+<details markdown>
   <summary>
     Full settings view
   </summary>
