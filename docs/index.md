@@ -1,9 +1,9 @@
-# Getting Started
 
+# Getting Started
 
 ## Pinecil Settings and Menus
 
-![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=right width=350 style="margin-top: -1rem" }
+![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=right width=350 style="margin-top: -1rem" float="left" }
 
 Why focus on soldering when you can play with the settings instead? With this app you have full control over your new shiny Pinecil V2 from your computer using bluetooth.
 
