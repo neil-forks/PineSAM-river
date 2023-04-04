@@ -1,0 +1,8 @@
+---
+nav:
+    - ... | index*.md
+    - Install Guides: install-guides
+    - User Guides: user-guides
+    - Release Notes: release_notes
+    - PineSAM: https://github.com/builder555/PineSAM
+    - Contributing: contributing.md
