@@ -1,7 +1,7 @@
 ---
 
 # Project info
-site_name: PineSAM
+site_name: PineSAM - Documentation
 site_url: https://builder555.github.io/PineSAM/
 site_description: "PineSAM is a Bluetooth BLE app to control the Pinecil V2 through a browser."
 
@@ -9,6 +9,7 @@ site_description: "PineSAM is a Bluetooth BLE app to control the Pinecil V2 thro
 repo_name: PineSAM
 repo_url: https://github.com/builder555/PineSAM/
 edit_uri: edit/dev/docs/
+docs_dir: docs
 
 # Theme and config
 theme:
@@ -16,8 +17,8 @@ theme:
   logo: img/PineSAM_logo-A017A5.png
   favicon: img/favicon.ico
   icon:
-    
     edit: material/file-edit-outline
+    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -46,11 +47,13 @@ theme:
     - search.highlight
     - search.suggest
     - toc.integrate
+    - content.action.edit
 
 # Plugins
 plugins:
   - autolinks
-  - awesome-pages
+  - awesome-pages:
+        collapse_single_pages: true
   - git-revision-date
   - search
 
