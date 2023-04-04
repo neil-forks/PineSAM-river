@@ -61,7 +61,7 @@ plugins:
       show_contribution: true
       fallback_to_empty: true
       sort_authors_by: contribution
-  -git-committers:
+  - git-committers:
      repository: neil-forks/PineSAM-river
      branch: NeilHanlon-patch-1
      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
