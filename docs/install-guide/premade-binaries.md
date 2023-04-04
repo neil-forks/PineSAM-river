@@ -1,4 +1,4 @@
-## Easy Install
+# Easy Install
 
 1. The easiest way to install PineSAM is using a premade binary package which does not require installation of python or node.js
 2. Download latest [release](https://github.com/builder555/PineSAM/releases/latest) for a specific OS (Mac, Linux, Windows).

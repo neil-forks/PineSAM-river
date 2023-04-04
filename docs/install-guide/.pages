@@ -1,7 +1,6 @@
 
 nav:
-    - Easy Install: install-guide/premade-binaries.md
-    - Build from Scripts: install-guide/dev-scripts.md
-    - Backend Server: install-guide/backend.md
+    - Easy Install: premade-binaries.md
+    - Build from Scripts: dev-scripts.md
+    - Backend Server: backend.md
     - Troubleshooting: troubleshooting.md
-

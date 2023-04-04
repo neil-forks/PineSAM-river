@@ -1,4 +1,4 @@
-## User Guide
+# User Guide
 
 1. Click on PineSAM logo to reveal the unique BLE name of your Pinecil.
 2. Update available notice appears under the PineSAM logo if a new release is available for download.
@@ -9,12 +9,12 @@
 7. Colors are designed to work in Light or Dark view mode on PC and Phone Browsers.
 8. Thermostat icon changes into 100 different color hues as the live temperature changes.
 
-### Save Changes to Flash
+## Save Changes to Flash
 
 - In Work HUD view, leave Save to Flash OFF (not needed and preserves flash cycles).
 - Toggle this on ''only'' before changing settings on the Pinecil so they persist on reboot.
 
-#### Steps to Change Settings:
+### Steps to Change Settings:
 
 1. toggle on the Save to Flash (grey is off)
 2. change all desired settings

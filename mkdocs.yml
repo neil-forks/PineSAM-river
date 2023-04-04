@@ -14,6 +14,7 @@ docs_dir: docs
 # Theme and config
 theme:
   name: material
+  custom_dir: docs/overrides
   logo: img/PineSAM_logo-A017A5.png
   favicon: img/favicon.ico
   font:
@@ -67,63 +68,8 @@ plugins:
      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - awesome-pages:
         collapse_single_pages: true
-  - i18n:
-      default_language: en
-      languages:
-          en: English
-          de: Deutsch
-          fr: Français
-          es: Español
-          it: Italian
-          ja: 日本語
-          zh: 简体中文
-          sv: Svenska
-          pl: Polish
-          pt: Português
-          ru: Russian
   - git-revision-date-localized:
       type: date
-
-
-extra:
-  alternate:
-    - name: Default (en)
-      link: ./
-      lang: en
-    - name: English
-      link: ./en/
-      lang: en
-    - name: Français
-      link: ./fr/
-      lang: fr
-    - name: Deutsch
-      link: ./de/
-      lang: de
-    - name: Español
-      link: ./es/
-      lang: es
-    - name: Italian
-      link: ./it/
-      lang: it
-    - name: 日本語
-      link: ./ja/
-      lang: ja
-    - name: Polish
-      link: ./pl/
-      lang: pl
-    - name: Português
-      link: ./pt/
-      lang: pt
-    - name: 简体中文
-      link: ./zh/
-      lang: zh
-    - name: Svenska
-      link: ./sv/
-      lang: sv
-    - name: Russian
-      link: ./ru/
-      lang: ru
-
 
 # Markdown Extensions
 markdown_extensions:
@@ -151,5 +97,3 @@ markdown_extensions:
   # Metadata support in pages
   # (https://squidfunk.github.io/mkdocs-material/extensions/metadata)
   - meta
-   
-   
