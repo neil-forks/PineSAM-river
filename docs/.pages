@@ -1,6 +1,6 @@
-
+---
 nav:
-    - Home: index.md
+    - ... | index*.md
     - Install Guide: install-guide
     - User Guide: user-guide
     - About: about.md
