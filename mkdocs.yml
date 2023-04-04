@@ -16,7 +16,7 @@ theme:
   logo: img/PineSAM_logo-A017A5.png
   favicon: img/favicon.ico
   icon:
-    repo: fontawesome-brands-github
+    
     edit: material/file-edit-outline
   palette:
     - media: "(prefers-color-scheme: light)"
