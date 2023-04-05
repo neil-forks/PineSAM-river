@@ -62,6 +62,8 @@ theme:
 plugins:
   - autolinks
   - search
+  - git-revision-date-localized:
+      type: date
   - git-authors:
       show_contribution: true
       fallback_to_empty: true
@@ -71,8 +73,7 @@ plugins:
      branch: NeilHanlon-patch-1
      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - awesome-pages:
-  - git-revision-date-localized:
-      type: date
+
 
 # Markdown Extensions
 markdown_extensions:
