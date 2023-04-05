@@ -4,6 +4,7 @@
 site_name: ''
 site_url: https://builder555.github.io/PineSAM/
 site_description: "PineSAM is a Bluetooth BLE app to control the Pinecil V2 through a browser."
+copyright: Copyright &copy; 2023 - present builder555
 
 # repo config
 repo_name: PineSAM
@@ -21,7 +22,7 @@ theme:
     edit: material/file-edit-outline
     repo: fontawesome/brands/github
   font:
-    code: Red Hat Text
+    code: Roboto
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -65,10 +66,7 @@ plugins:
   - search
   - git-revision-date-localized:
       type: date
-  - git-authors:
-      show_contribution: true
-      fallback_to_empty: true
-      sort_authors_by: contribution
+
   - git-committers:
      repository: neil-forks/PineSAM-river
      branch: NeilHanlon-patch-1
@@ -88,7 +86,7 @@ markdown_extensions:
   # Table of Contents
   - toc:
       permalink: "🔗&#xFE0E;"
-  - md_in_html
+  - pymdownx.magiclink
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -107,3 +105,4 @@ markdown_extensions:
   - footnotes
   - def_list
   - meta
+  - md_in_html

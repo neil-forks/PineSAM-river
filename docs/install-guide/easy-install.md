@@ -6,10 +6,13 @@ Easiest way to install PineSAM is using a premade binary package. This does not 
 ## Mac or Linux
 
    * Extract the downloaded zip file for Mac or Linux from [here](https://github.com/builder555/PineSAM/releases/latest).
-   ```sh
-   # Run in a terminal
-   ./start.sh
-   ```
+
+   
+```
+      # Run in a terminal  
+      ./start.sh
+```
+   
    * On MacOS, http://localhost:8080/ opens in your browser automatically.
    * Some Linux distros may need http://localhost:8080/ opened manually.
    * User guide [here](user-guide/usage).
