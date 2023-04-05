@@ -4,26 +4,29 @@
 2. Update available notice appears under the PineSAM logo if a new release is available for download.
 3. PineSAM version number is next to the Github Cat in the top right of the screen.
 4. Clicking on the waving cat links to the main Github PineSAM repo.
-5. Show Hints: toggles on/off to display help messages from Pinecil and PineSAM.
 6. Temperature automatically adjusts based on °C or °F setting.
 7. Colors are designed to work in Light or Dark view mode on PC and Phone Browsers.
 8. Thermostat icon changes into 100 different color hues as the live temperature changes.
 
-## Save Changes to Flash
+## Show Hints
 
-- In Work HUD view, leave Save to Flash OFF (not needed and preserves flash cycles).
-- Toggle this on ''only'' before changing settings on the Pinecil so they persist on reboot.
+Toggles on/off to display help messages from Pinecil and PineSAM.
 
-### Steps to Change Settings:
+## Save to Flash
 
-1. toggle on the Save to Flash (grey is off)
+- Save to Flash should be `off` if actively soldering and using the Work HUD to change temperatures frequently (not needed and preserves flash cycles).
+- Toggle this `on` only before changing settings and if you want the settings to persist on Pinecil reboot.
+
+## Change Settings
+
+1. Toggle On the Save to Flash (grey is off)
 2. change all desired settings
 3. once complete, toggle it off.
 4. if using the Work HUD view, it is best to leave this off. No reason to constantly flash to pinecil for each temperature change (don't worry Pinecil still changes temperature, it's just not permanently flashed and set).
 
-## Work HUD View
+## Work HUD
 
-![Full Settings View](img/workHUD-detailed.png)
+![work hud detailed](../img/workHUD-detailed.png)
 
 1. This is a HUD window designed as an all-in-one single view that can be used during soldering.
 2. Phone: designed to be completely viewable on vertical screen.
@@ -37,7 +40,7 @@
 2. Preset buttons can be customized and saved instantly to desired temperature.
 3. Presets are saved to the html file where the python script is running and will persist if one uses the same PC again.
 
-#### Steps:
+### Steps
 
 1. set the number desired with the PineSAM [-][+] buttons.
 2. then long hold the Preset 1/2 you want to save to, click OK on the confirmation box.

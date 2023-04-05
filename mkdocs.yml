@@ -15,13 +15,13 @@ docs_dir: docs
 theme:
   name: material
   custom_dir: docs/overrides
-  logo: img/PineSAM_logo-A017A5.png
   favicon: img/favicon.ico
-  font:
-    code: Red Hat Text
+  logo: img/PineSAM_logo-A017A5.png
   icon:
     edit: material/file-edit-outline
     repo: fontawesome/brands/github
+  font:
+    code: Red Hat Text
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -47,10 +47,12 @@ theme:
     - navigation.indexes
     - navigation.instant
     - navigation.top
-    - navigation.tabs
+      # tab buttons in the top banner
+    - navigation.tabs  
     - navigation.tabs.sticky
     - navigation.tracking
     - navigation.path
+    
     - search.highlight
     - search.suggest
     - toc.integrate
