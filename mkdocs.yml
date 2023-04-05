@@ -52,6 +52,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.tracking
     - navigation.path
+    - navigation.footer
     
     - search.highlight
     - search.suggest
@@ -73,7 +74,9 @@ plugins:
      branch: NeilHanlon-patch-1
      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - awesome-pages:
-
+  - macros:
+      # toggle to true if you are in CD/CI environment
+      on_error_fail: true
 
 # Markdown Extensions
 markdown_extensions:
