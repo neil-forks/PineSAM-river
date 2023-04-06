@@ -4,7 +4,7 @@
 site_name: ''
 site_url: https://builder555.github.io/PineSAM/
 site_description: "PineSAM is a Bluetooth BLE app to control the Pinecil V2 through a browser."
-copyright: Copyright &copy; 2023 - present builder555
+copyright: Copyright &copy; 2023 - present builder555 & contributers
 
 # repo config
 repo_name: PineSAM
@@ -21,8 +21,8 @@ theme:
   icon:
     edit: material/file-edit-outline
     repo: fontawesome/brands/github
-  font:
-    code: Inter
+# Don't load from Google fonts
+  font: false
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -54,7 +54,6 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.footer
-    
     - search.highlight
     - search.suggest
     - toc.integrate
@@ -81,12 +80,10 @@ markdown_extensions:
   # Adds ability to define abbreviations
   - abbr
   - attr_list
-  # block-styled side content
-  - admonition
   # Table of Contents
   - toc:
       permalink: "🔗&#xFE0E;"
-  - pymdownx.magiclink
+
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -94,13 +91,19 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.magiclink
   - pymdownx.inlinehilite
   - pymdownx.snippets
+   # call-outs of side content
+  - admonition
+  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.keys
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.details
   - pymdownx.tasklist
   - footnotes
   - def_list
