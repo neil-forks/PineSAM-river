@@ -61,13 +61,17 @@ theme:
     - content.action.edit
     - content.code.copy
 
+# For Fonts Privacy
+extra_css:
+  - /assets/css/extra.css
+
 # Plugins
 plugins:
   - autolinks
   - search
   - git-revision-date-localized:
       type: date
-
+  - glightbox
   - git-committers:
      repository: neil-forks/PineSAM-river
      branch: NeilHanlon-patch-1
@@ -76,6 +80,8 @@ plugins:
   - macros:
       # toggle to true if you are in CD/CI environment
       on_error_fail: true
+
+
 
 # Markdown Extensions
 markdown_extensions:
@@ -112,3 +118,5 @@ markdown_extensions:
   - def_list
   - meta
   - md_in_html
+
+
