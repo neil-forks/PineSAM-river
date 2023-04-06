@@ -22,8 +22,7 @@ theme:
     edit: material/file-edit-outline
     repo: fontawesome/brands/github
 # Don't load from Google fonts
-  font:
-    test: Roboto
+  font: false
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
