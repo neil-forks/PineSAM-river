@@ -22,7 +22,7 @@ theme:
     edit: material/file-edit-outline
     repo: fontawesome/brands/github
   font:
-    code: Roboto
+    code: Inter
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
