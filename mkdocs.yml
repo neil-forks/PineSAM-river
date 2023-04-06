@@ -59,6 +59,7 @@ theme:
     - search.suggest
     - toc.integrate
     - content.action.edit
+    - content.code.copy
 
 # Plugins
 plugins:
@@ -84,7 +85,8 @@ markdown_extensions:
   # Table of Contents
   - toc:
       permalink: "🔗&#xFE0E;"
-
+  - codehilite:
+      guess_lang: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -97,9 +99,9 @@ markdown_extensions:
   - pymdownx.snippets
    # call-outs of side content
   - admonition
+  - pymdownx.caret
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.keys
   - pymdownx.keys
   - pymdownx.tasklist:
       custom_checkbox: true

@@ -1,4 +1,3 @@
-
 # Pinecil Settings and Menus
 
 ![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=left width=350 style="margin-top: -1rem" float="left" }
@@ -43,16 +42,14 @@ You can access the settings remotely once the app is running on the main PC/lapt
 * open `http://<ip-address>:8080/` on the second device on the same network (e.g., a phone).
 * Pinecil needs to be within BLE range of the computer running the PineSAM app.
 
-## :abacus: Contributors Welcome
 
-Please fork the repo, and submit Pull Requests using the `/dev` branch.
-
-
-
-## :book: References
+## :octicons-book-24: References
 
 - [Pinecil](https://wiki.pine64.org/wiki/Pinecil) - The Pinecil Wiki page
 - [IronOS](https://github.com/Ralim/IronOS) - The OS running on this soldering iron
 - [Pinecil Web UI](https://github.com/joric/pinecil) - A neat web-based UI, requires bluetooth browser support
 - [Pinecil Authenticity Checker](https://pinecil.pine64.org/) - almost all AliExpress Pinecils are fake, check your V2!
 
+## :abacus: Contributors Welcome
+
+Please fork the repo, and submit Pull Requests using the `/dev` branch.
