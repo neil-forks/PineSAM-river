@@ -71,7 +71,7 @@ plugins:
   - search
   - git-revision-date-localized:
       type: date
-  - glightbox
+
   - git-committers:
      repository: neil-forks/PineSAM-river
      branch: NeilHanlon-patch-1
