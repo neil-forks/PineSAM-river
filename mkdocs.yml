@@ -63,7 +63,7 @@ theme:
 
 # For Fonts Privacy
 extra_css:
-  - /assets/css/extra.css
+  - assets/css/extra.css
 
 # Plugins
 plugins:
