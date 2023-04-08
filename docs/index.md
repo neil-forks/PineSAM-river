@@ -1,12 +1,12 @@
 # Pinecil Settings and Menus
 
-![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=left width=350 style="margin-top: -1rem" float="left" }
+![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=left width=350  float="left" }
 
 Why focus on soldering when you can play with the settings instead? With this app you have full control over your new shiny Pinecil V2 from your computer using bluetooth.
 
-**NB**: No special browser BLE GATT or flags required and works on all major OS/devices.
+**NB:** No special browser flags or BLE GATT required; works on all major OS and phones.
 
-**NB**: This app needs the python backend to run on a computer, it CANNOT run entirely in the browser like Joric's UI.
+**NB:** This app needs the backend to start on a computer terminal; then the user interface runs from any browser. It CANNOT run entirely by only opening a browser like Joric's UI.
 
 <div style="clear: both;"></div>
 
@@ -38,9 +38,10 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 You can access the settings remotely once the app is running on the main PC/laptop.
 
-* Find the [local IP address](https://lifehacker.com/how-to-find-your-local-and-external-ip-address-5833108) of the device running the app.
-* open `http://<ip-address>:8080/` on the second device on the same network (e.g., a phone).
+* Find the [local IP address](https://lifehacker.com/how-to-find-your-local-and-external-ip-address-5833108) of the computer running the app.
+* Open `http://<ip-address>:8080/` on the second device on the same network (e.g., a phone).
 * Pinecil needs to be within BLE range of the computer running the PineSAM app.
+* Hint: if your PC is on a LAN, then also enable the wifi connection on it, and use that IP Address.
 
 
 ## :octicons-book-24: References

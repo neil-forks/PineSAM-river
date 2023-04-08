@@ -59,6 +59,7 @@ theme:
     - search.suggest
     - toc.integrate
     - content.action.edit
+    # adds a copy button to all codeblocks for user convenience
     - content.code.copy
 
 # For Fonts Privacy
@@ -83,12 +84,12 @@ plugins:
       on_error_fail: true
 
 
-
 # Markdown Extensions
 markdown_extensions:
   # Adds ability to define abbreviations
   - abbr
   - attr_list
+  - md_in_html
   # Table of Contents
   - toc:
       permalink: "🔗&#xFE0E;"
@@ -104,20 +105,20 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.inlinehilite
   - pymdownx.snippets
-   # call-outs of side content
-  - admonition
+    - pymdownx.superfences
   - pymdownx.caret
   - pymdownx.details
-  - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist
+  # call-outs of side content
+  - admonition
   - footnotes
   - def_list
   - meta
-  - md_in_html
+
 
 

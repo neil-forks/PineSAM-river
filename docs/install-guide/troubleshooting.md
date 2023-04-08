@@ -1,7 +1,6 @@
 ## :octicons-terminal-24: Running Unit tests
 
-```shell
-# run inside 'backend' directory:
+```shell title="run inside 'backend' folder"
 pipenv run test
 ```
 

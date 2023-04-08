@@ -1,7 +1,7 @@
-#  Install Dev version from scripts
+# Install dev version from scripts
 
-Use this dev version if there is an issue with the premade binaries or you want to do development.
- 
+Use this development (dev) version if there is an issue with the premade binaries or you want to do PineSAM dev. In the end, this version produces the same PineSAM as the premade binaries from the [Easy Install](easy-install.md).
+
 ## Dependencies
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
@@ -10,13 +10,12 @@ Use this dev version if there is an issue with the premade binaries or you want 
 - [node+npm](https://nodejs.org/en/download/)
 
 
-## Mac or Linux install
+## Mac or Linux dev
 
 #### Setup
-First, install all packages linked above in Dependencies.
+First, install all packages linked above in [dependencies](#dependencies).
 
-Then, get the files.
-```shell
+```shell title="Then get pinesam"
 git clone https://github.com/builder555/PineSAM
 cd PineSAM
 chmod +x setup-dev.sh
@@ -29,14 +28,15 @@ chmod +x run-dev.sh
 ./run-dev.sh
 # press CTRL+C in the terminal window to stop
 ```
-* On a Mac http://localhost:8080 will open in your browser automatically.
+
+* On a Mac, PineSAM will automatically open http://localhost:8080 will open in your default browser.
 * Some Linux distros may need http://localhost:8080 opened manually. Debian12 hints [here](https://github.com/builder555/PineSAM/discussions/47#discussion-4884758).
 <br>
   
-## Windows dev install
+## Windows dev
 
 #### Setup
-First, install all packages linked above in Dependencies. Skip to 4 if you did this already.
+First, install all packages linked above in [dependencies](#dependencies). Skip to 4 if you did this already.
 
 1. Python install notes
     * Check "Add python.exe to PATH" and select "Customize Installation"
@@ -44,15 +44,21 @@ First, install all packages linked above in Dependencies. Skip to 4 if you did t
     * Screenshots of options to select [are here](https://github.com/builder555/PineSAM/discussions/7#discussion-4862766).
 2. Install [NodeJS here](https://nodejs.org/en/download/), accept all prompts to add packages during install including a prompt in the terminal that opens.
 3. After installing packages listed for backend script ([reference](https://github.com/builder555/PineSAM/issues/131#issuecomment-1489711241)), go to System Environment variables to check paths ([image](https://github.com/builder555/PineSAM/discussions/130#discussion-5011624)).
-4. Download the Source-all-__.zip from the [latest release](https://github.com/builder555/PineSAM/releases/latest).
-5. If the zip has an Unblock option, then unblock and extract ([example](https://github.com/builder555/PineSAM/discussions/106#discussion-4960445)).
-6. Run powershell as administrator, set permissions to RemoteSigned ([image here](https://github.com/builder555/PineSAM/discussions/106)).
-```shell
-# setting this one time in powershell normally persists on reboots.
-C:\Set-ExecutionPolicy RemoteSigned
+4. Download the Source-all-__.zip from the latest [releases](https://github.com/builder555/PineSAM/releases/latest).
+5. Right-click the zip > properties, if it has an Unblock option, then unblock and extract it ([example](https://github.com/builder555/PineSAM/discussions/106#discussion-4960445)).
+6. Run powershell as administrator, set permissions to RemoteSigned ([example](https://github.com/builder555/PineSAM/discussions/106)). Setting this one time in powershell normally persists on reboots.
+```console
+Set-ExecutionPolicy RemoteSigned
 ```
+7. Check that permissions are correct.
+```console
+Get-executionPolicy -List
+```
+![Windows Powershell Permissions](../img/powershell-permissions.png){ width="300" align=right }
+
 #### Run
-1. change directory, `cd` into the PineSAM folder that was extracted above.
+
+Change directory (`cd`) into the PineSAM folder that was extracted above.
 ```shell
 .\setup-dev.bat   # only need to run this one time for each new version
 .\run-dev.bat     # run this command every time to start PineSAM (do not need to run as admin)
