@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+{{ super() }}
+
+<aside class="metadata page-metadata" data-bi-name="page info" lang="en-us" dir="ltr">  <li class="contributors-holder">
+    <ul class="contributors" data-bi-name="contributors">
+      {%- for user in committers -%}
+      <li><a href="{{ user.url }}" title="{{ user.name }}" data-bi-name="contributorprofile" target="_blank"><img src="{{ user.avatar }}" alt="{{ user.name }}"></a></li>
+      {%- endfor -%}
+    </ul>
+</aside>
+{% endblock %}

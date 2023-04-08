@@ -165,3 +165,39 @@
          url('../fonts/roboto-mono-v22-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/roboto-mono-v22-latin-700.svg#RobotoMono') format('svg'); /* Legacy iOS */
   }
+
+/* git committers 2 plugin */
+.metadata{
+     list-style:none;
+     padding:0;
+     margin:0;
+     margin-bottom: 15px;
+     color: #999;
+     font-size:0.85em;
+     margin-top: 0.5rem;
+ }
+ .page-metadata .contributors{
+     display:inline-block;
+     list-style:none;
+     margin:0!important;
+     padding:0!important;
+ }
+ .page-metadata .contributors li{
+     display:inline-block;
+     vertical-align:top;
+     margin:0;
+     padding:0;
+     
+ }
+
+ .page-metadata .contributors li img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+ }
+ .page-metadata .contributors li img:hover {
+    -webkit-filter: none !important;
+    filter: none !important;
+}
