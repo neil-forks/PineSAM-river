@@ -63,19 +63,20 @@ theme:
 
 # For Fonts Privacy
 extra_css:
-  - assets/css/extra.css
+  - assets/stylesheets/extra.css
+
+extra_javascripts:
+  - assets/javascripts/extra.js
 
 # Plugins
 plugins:
   - autolinks
   - search
+  - git-committers:
+      repository: neil-forks/PineSAM-river
+      branch: NeilHanlon-patch-1
   - git-revision-date-localized:
       type: date
-
-  - git-committers:
-     repository: neil-forks/PineSAM-river
-     branch: NeilHanlon-patch-1
-     token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
   - awesome-pages:
   - macros:
       # toggle to true if you are in CD/CI environment
