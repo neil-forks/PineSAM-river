@@ -20,6 +20,7 @@ With this app you have full control over your new shiny Pinecil V2 from your com
 **NB**: No special browser BLE GATT or flags required and works on all major OS/devices.
 
 **NB**: This app needs the python backend to run on a computer, it CANNOT run entirely in the browser like Joric's UI.
+<div style="clear: right;"></div>
 
 ## 💫 Features
 
@@ -47,7 +48,7 @@ You can access the settings remotely once the app is running on the main PC/lapt
 ## 🧮 Contributors Welcome
 - Please fork the [repo](https://github.com/builder555/PineSAM), and submit Pull Requests using the `dev` branch
 
-## 🛠️ Running Unit tests
+## Running Unit tests
 
 run inside `backend` directory:
 ```shell

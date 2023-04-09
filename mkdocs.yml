@@ -31,68 +31,6 @@ theme:
       - content.action.view
       - toc.integrate
 
-    palette:
-
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: light green
-      accent: purple
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: light green
-      accent: purple
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
-markdown_extensions:
-  # Code highlighting in ``` ``` blocks
-  - codehilite:
-      guess_lang: true
-  # Table of Contents
-  - toc:
-      permalink: true
-  # block-styled side content
-  - admonition
-  # linkifies URL and email links without having to wrap them in Markdown syntax. Also, allows shortens repository issue, pull request, and commit links.
-  - pymdownx.magiclink
-  # Task lists (https://facelessuser.github.io/pymdown-extensions/extensions/tasklist)
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  # Highlight words with ==mark me==
-  - pymdownx.mark
-  # Adds support for deletion ~~Delete me~~ and subscript text~a\ subscript~
-  - pymdownx.tilde
-  # This extension is a convenience extension which includes many pymdownx extensions
-  # (https://facelessuser.github.io/pymdown-extensions/extensions/extra)
-  - pymdownx.extra
-  # (https://facelessuser.github.io/pymdown-extensions/extensions/details)
-  - pymdownx.details
-  # Tabbed provides a syntax to easily add tabbed Markdown content.
-  # https://facelessuser.github.io/pymdown-extensions/extensions/tabbed/
-  - pymdownx.tabbed:
-      alternate_style: true
-  # Adds syntax for defining footnotes in Markdown documents (https://python-markdown.github.io/extensions/footnotes)
-  - footnotes
-  # Adds the ability to define abbreviations
-  - abbr
-  # Metadata support in pages
-  # (https://squidfunk.github.io/mkdocs-material/extensions/metadata)
-  - meta
-  - attr_list
-  - md_in_html
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  
 
 nav:
     - 👋 Welcome!: index.md
@@ -104,31 +42,26 @@ nav:
         - ⚙️ Settings Categories: how-to-use/settings.md
         - 📒 Debugging & Terminal: how-to-use/debugging & terminal.md
 
-extra:
-  social:
-    - icon: simple/github
-      link: https://github.com/builder555/PineSAM
-      name: GitHub
-    - icon: fontawesome/solid/heart
-      link: https://github.com/sponsors/builder555
-      name: Sponsor the project
+theme: 
 
-copyright: Copyright &copy; 2023 - present builder555 & contributors
-
+# For Privacy - defines/uses local fonts
 extra_css:
-  - assets/css/style.css
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/fonts.css
 
+
+extra_javascripts:
+  - assets/javascripts/extra.js
+
+# Plugins
 plugins:
-  - search:
-      lang:
-        - en
+  - autolinks
+  - search
+  - git-committers:
+      repository: neil-forks/PineSAM-river
+      branch: NeilHanlon-patch-1
   - git-revision-date-localized:
-      type: timeago
-      #timezone: Europe/Berlin
-      locale: en
-      fallback_to_build_date: false
-      enable_creation_date: true
-      enabled: true
+      type: date
   - git-authors:
       show_contribution: true
       show_line_count: true
@@ -138,20 +71,89 @@ plugins:
       sort_authors_by: contribution
       authorship_threshold_percent: 0
       enabled: true
-  - enumerate-headings:
-      toc_depth: 2
-      exclude:
-        - index.md
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: zoom
-      slide_effect: slide
-      width: 100%
-      height: auto
-      zoomable: true
-      draggable: true
-      skip_classes:
-        - nglb
-      auto_caption: true
-      caption_position: bottom
+
+
+
+  - awesome-pages:
+        collapse_single_pages: true
+  - i18n:
+      default_language: en
+      languages:
+          en: English
+          de: Deutsch
+          fr: Français
+          es: Español
+          it: Italian
+          ja: 日本語
+          zh: 简体中文
+          sv: Svenska
+          pl: Polish
+          pt: Português
+          ru: Russian
+  - git-revision-date-localized:
+      type: date
+
+extra:
+  alternate:
+    - name: Default (en)
+      link: ./
+      lang: en
+    - name: English
+      link: ./en/
+      lang: en
+    - name: Français
+      link: ./fr/
+      lang: fr
+    - name: Deutsch
+      link: ./de/
+      lang: de
+    - name: Español
+      link: ./es/
+      lang: es
+    - name: Italian
+      link: ./it/
+      lang: it
+    - name: 日本語
+      link: ./ja/
+      lang: ja
+    - name: Polish
+      link: ./pl/
+      lang: pl
+    - name: Português
+      link: ./pt/
+      lang: pt
+    - name: 简体中文
+      link: ./zh/
+      lang: zh
+    - name: Svenska
+      link: ./sv/
+      lang: sv
+    - name: Russian
+      link: ./ru/
+      lang: ru
+
+
+
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - admonition
+  - toc:
+      permalink: "🔗&#xFE0E;"
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.tasklist
+  - footnotes
+  - def_list
+  - meta

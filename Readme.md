@@ -7,7 +7,7 @@
 <img src="./docs/assets/img/logo.png" align="left" width="150" height="48" style="float:left"> <br clear="left" />
 ---
 <br>
-<img src="./docs/assets/img/workHUD.png" align="right" width="350" style="float:left">
+<img src="./docs/img/workHUD.png" align="right" width="350" style="float:left">
 
 #### PineSAM = Pinecil Settings and Menus
 
@@ -24,12 +24,12 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
   </summary>
 
-<img src="./docs/assets/img/full_settings.png" width="900"> 
+<img src="./docs/img/full_settings.png" width="900"> 
 
 </details>
 <br clear="right"/>
 
-# 💫 Features
+# Features
 
 - [x] Automatically detect Pinecil V2 over BLE.
 - [x] Control all settings on the device.
