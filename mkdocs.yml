@@ -81,7 +81,6 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
-      
   - awesome-pages:
   - macros:
       # toggle to true if you are in CD/CI environment
