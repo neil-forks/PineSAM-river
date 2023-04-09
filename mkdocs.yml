@@ -3,8 +3,8 @@
 # Project info
 site_name: ''
 site_url: https://builder555.github.io/PineSAM/
-site_description: "PineSAM is a Bluetooth BLE app to control the Pinecil V2 through a browser."
-copyright: Copyright &copy; 2023 - present builder555 & contributers
+site_description: "PineSAM is a Bluetooth LE app to control the Pinecil V2 through a browser."
+copyright: Copyright &copy; 2023 - present builder555 & contributors
 
 # repo config
 repo_name: PineSAM
@@ -66,8 +66,10 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
 
+
 extra_javascripts:
   - assets/javascripts/extra.js
+
 
 # Plugins
 plugins:
@@ -77,14 +79,16 @@ plugins:
       repository: neil-forks/PineSAM-river
       branch: NeilHanlon-patch-1
   - git-revision-date-localized:
-      type: date
+      enable_creation_date: true
+      type: timeago
+      
   - awesome-pages:
   - macros:
       # toggle to true if you are in CD/CI environment
       on_error_fail: true
 
 
-# Markdown Extensions
+# Extensions
 markdown_extensions:
   # Adds ability to define abbreviations
   - abbr
@@ -118,7 +122,6 @@ markdown_extensions:
   - admonition
   - footnotes
   - def_list
-  - meta
 
 
 

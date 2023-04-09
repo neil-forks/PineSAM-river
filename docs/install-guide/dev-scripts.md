@@ -10,7 +10,7 @@ Use this development (dev) version if there is an issue with the premade binarie
 - [node+npm](https://nodejs.org/en/download/)
 
 
-## Mac or Linux dev
+## :fontawesome-brands-apple: Mac or :fontawesome-brands-linux: Linux dev
 
 #### Setup
 First, install all packages linked above in [dependencies](#dependencies).
@@ -33,7 +33,7 @@ chmod +x run-dev.sh
 * Some Linux distros may need http://localhost:8080 opened manually. Debian12 hints [here](https://github.com/builder555/PineSAM/discussions/47#discussion-4884758).
 <br>
   
-## Windows dev
+## :fontawesome-brands-windows: Windows dev
 
 #### Setup
 First, install all packages linked above in [dependencies](#dependencies). Skip to 4 if you did this already.
@@ -54,7 +54,7 @@ Set-ExecutionPolicy RemoteSigned
 ```console
 Get-executionPolicy -List
 ```
-![Windows Powershell Permissions](../img/powershell-permissions.png){ width="300" align=right }
+![Windows Powershell Permissions](../img/pwsh-permissions.png){ width="300" }
 
 #### Run
 
