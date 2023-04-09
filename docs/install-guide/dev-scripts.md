@@ -2,7 +2,7 @@
 
 Use this development (dev) version if there is an issue with the premade binaries or you want to do PineSAM dev. In the end, this version produces the same PineSAM as the premade binaries from the [Easy Install](easy-install.md).
 
-## Dependencies
+## :material-clipboard-check-outline: Dependencies
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [python 3](https://www.python.org/downloads/) (tested with 3.10/3.11)
@@ -36,7 +36,8 @@ chmod +x run-dev.sh
 ## :fontawesome-brands-windows: Windows dev
 
 #### Setup
-First, install all packages linked above in [dependencies](#dependencies). Skip to 4 if you did this already.
+
+Follow the additional guidance below to install all packages linked above in [dependencies](#dependencies).
 
 1. Python install notes
     * Check "Add python.exe to PATH" and select "Customize Installation"
@@ -50,11 +51,10 @@ First, install all packages linked above in [dependencies](#dependencies). Skip 
 ```console
 Set-ExecutionPolicy RemoteSigned
 ```
-7. Check that permissions are correct.
+7. Check that permissions are correct; at minimum, need LocalMachine to show as RemoteSigned.
 ```console
 Get-executionPolicy -List
 ```
-![Windows Powershell Permissions](../img/pwsh-permissions.png){ width="300" }
 
 #### Run
 

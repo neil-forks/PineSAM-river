@@ -1,10 +1,5 @@
-## :octicons-terminal-24: Running Unit tests
 
-```shell title="run inside 'backend' folder"
-pipenv run test
-```
-
-## 🚧 Known issues
+##  :octicons-alert-24: Known issues
 1. bleak causes Python to crash on Mac: https://github.com/hbldh/bleak/issues/768
     * possible solution: give access to iTerm (or whichever terminal you use) to Bluetooth in Settings
 
@@ -22,3 +17,9 @@ pipenv run test
 5. See the [Discussions](https://github.com/builder555/PineSAM/discussions) section for install hints and solutions to some common issues.
 6. PineSAM usage [instructions here](https://github.com/builder555/PineSAM/wiki).
 7. Something else: [open an issue](https://github.com/builder555/PineSAM/issues).
+
+## :octicons-terminal-24: Running Unit tests
+
+```shell title="run inside 'backend' folder"
+pipenv run test
+```
