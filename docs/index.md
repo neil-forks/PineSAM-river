@@ -34,7 +34,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 -  Backend runs locally on all major platforms/OS while the user interface runs on your favorite browser.
 
 
-## :material-signal-cellular-2: Remote access
+## :fontawesome-solid-wifi: Remote access
 
 You can access the settings remotely once the app is running on the main PC/laptop.
 
@@ -51,6 +51,6 @@ You can access the settings remotely once the app is running on the main PC/lapt
 - [Pinecil Web UI](https://github.com/joric/pinecil) - A neat web-based UI, requires bluetooth browser support
 - [Pinecil Authenticity Checker](https://pinecil.pine64.org/) - almost all AliExpress Pinecils are fake, check your V2!
 
-## :abacus: Contributors Welcome
+## :octicons-star-24: Contributors Welcome
 
 Please fork the repo, and submit Pull Requests using the `/dev` branch.
