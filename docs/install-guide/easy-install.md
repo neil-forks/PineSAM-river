@@ -1,7 +1,9 @@
 
 # Easy Install
 
-Easiest way to install PineSAM is using a premade binary package. This does not require installation of python, node.js, or other dependencies. Just download the latest [release](https://github.com/builder555/PineSAM/releases/latest) for a specific OS and follow the steps below.
+Easiest way to install PineSAM is using a premade binary package; does not require installation of python, node.js, or other dependencies.
+
+Just download the latest [release](https://github.com/builder555/PineSAM/releases/latest) for a specific OS name and follow the steps below.
 
 ## :fontawesome-brands-apple: Mac or :fontawesome-brands-linux: Linux
 
@@ -22,8 +24,9 @@ Easiest way to install PineSAM is using a premade binary package. This does not 
 ## :fontawesome-brands-windows: Windows
 
 * Right click on the zip, properties> general, check the Unblock box if it is present, then extract ([reference](https://github.com/builder555/PineSAM/discussions/106#discussion-4960445)).
+* Inside powershell, change to the directory where the files were extracted.
 
-``` console title="run in powershell"
+``` console title="In powershell, your location may be different"
 C:\> cd .\Downloads\PineSAM-Windows-x64-v1.13.3\
 C:\> .\start.ps1
 ```

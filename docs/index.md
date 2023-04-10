@@ -53,4 +53,4 @@ You can access the settings remotely once the app is running on the main PC/lapt
 
 ## :octicons-star-24: Contributors Welcome
 
-Please fork the repo, and submit Pull Requests using the `/dev` branch.
+Please fork the repo, and submit Pull Requests using the `/dev` branch. Check out some of the open issue tickets or propose new features.

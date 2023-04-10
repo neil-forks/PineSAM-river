@@ -24,6 +24,7 @@ theme:
 # Don't load from Google fonts
   font: false
   language: en
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -44,6 +45,7 @@ theme:
     - yaml
     - javascript
     - powershell
+
   features:
     - navigation.expand
     - navigation.indexes
@@ -66,7 +68,6 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
 
-
 extra_javascripts:
   - assets/javascripts/extra.js
 
@@ -83,13 +84,25 @@ plugins:
       type: timeago
   - awesome-pages:
   - macros:
-      # toggle to true if you are in CD/CI environment
+      # true if in CD/CI environment
       on_error_fail: true
+
+# lower-right banner info
+extra:
+  social:
+    - icon: simple/githubsponsors
+      link: https://github.com/sponsors/builder555
+      name: Sponsor the project
+    - icon: fontawesome/regular/star
+      link: https://github.com/builder555/PineSAM
+      name: Give it a Star if you like!
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/builder555/PineSAM
+      name: Go to repository
 
 
 # Extensions
 markdown_extensions:
-  # Adds ability to define abbreviations
   - abbr
   - attr_list
   - md_in_html
@@ -98,6 +111,8 @@ markdown_extensions:
       permalink: "🔗&#xFE0E;"
   - codehilite:
       guess_lang: true
+
+  # built-in icons: material, fontAwesome, octicons, simple
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -117,10 +132,9 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist
+
   # call-outs of side content
   - admonition
   - footnotes
   - def_list
-
-
 
