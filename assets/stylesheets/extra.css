@@ -165,3 +165,65 @@
          url('../fonts/roboto-mono-v22-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/roboto-mono-v22-latin-700.svg#RobotoMono') format('svg'); /* Legacy iOS */
   }
+
+/* git committers 2 plugin */
+.metadata{
+     padding:0;
+     margin:0;
+     margin-bottom: 15px;
+     color: #999;
+     font-size:0.85em;
+     margin-top: 0.5rem;
+     display: inline-flex;
+ }
+ .metadata .md-source-file {
+     display: inline-flex;
+ }
+ .metadata .md-source-file div.metadata-item {
+     align-items: center;
+     display: inline-flex;
+     margin-right: 0.6rem;
+     gap: .3rem;
+ }
+
+ .metadata .md-source-file div.metadata-item span.twemoji {
+     font-size: 1rem;
+ }
+
+ .page-metadata .contributors {
+     align-items: center;
+     display: inline-flex;
+}
+ .page-metadata .contributors span {
+    display: block;
+    flex-shrink: 0;
+    height: 1.6rem;
+    overflow: hidden;
+    position: relative;
+    transition: color 125ms,transform 125ms;
+    width: 1.6rem;
+    margin-right: .2rem;
+ }
+ .page-metadata .contributors span img {
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%) opacity(75%);
+    filter: grayscale(100%) opacity(75%);
+    transition: filter 125ms;
+ }
+ .page-metadata .contributors span img:hover {
+    -webkit-filter: none !important;
+    filter: none !important;
+}
+
+/* animated icons */
+@keyframes md-social {
+     0%, 40%, 80%, 100% {
+       transform: scale(1);
+     }
+     20%, 60% {
+       transform: scale(1.15);
+     }
+}
+.md-social a:hover {
+     animation: md-social linear 1000ms infinite;
+}
