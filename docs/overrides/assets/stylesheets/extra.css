@@ -214,15 +214,16 @@
     -webkit-filter: none !important;
     filter: none !important;
 }
+
 /* animated icons */
-@keyframes githubsponsors {
+@keyframes md-social {
      0%, 40%, 80%, 100% {
        transform: scale(1);
      }
      20%, 60% {
        transform: scale(1.15);
      }
-   }
-   .heart {
-     animation: githubsponsors 1000ms infinite;
-   }
+}
+.md-social a:hover {
+     animation: md-social linear 1000ms infinite;
+}
