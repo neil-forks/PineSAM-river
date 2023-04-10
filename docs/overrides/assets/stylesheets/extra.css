@@ -186,17 +186,8 @@
      gap: .3rem;
  }
 
-<<<<<<< HEAD
- .page-metadata .contributors li img {
-    border-radius: 50%;
-    height: 31px;
-    width: 31px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-=======
  .metadata .md-source-file div.metadata-item span.twemoji {
      font-size: 1rem;
->>>>>>> 70346391338facd4ac221ae85e3ea8a323d77ec2
  }
 
  .page-metadata .contributors {
@@ -223,15 +214,16 @@
     -webkit-filter: none !important;
     filter: none !important;
 }
+
 /* animated icons */
-@keyframes githubsponsors {
+@keyframes md-social {
      0%, 40%, 80%, 100% {
        transform: scale(1);
      }
      20%, 60% {
        transform: scale(1.15);
      }
-   }
-   .heart {
-     animation: githubsponsors 1000ms infinite;
-   }
+}
+.md-social a:hover {
+     animation: md-social linear 1000ms infinite;
+}
