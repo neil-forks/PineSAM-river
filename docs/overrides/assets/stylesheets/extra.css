@@ -186,17 +186,8 @@
      gap: .3rem;
  }
 
-<<<<<<< HEAD
- .page-metadata .contributors li img {
-    border-radius: 50%;
-    height: 31px;
-    width: 31px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-=======
  .metadata .md-source-file div.metadata-item span.twemoji {
      font-size: 1rem;
->>>>>>> 70346391338facd4ac221ae85e3ea8a323d77ec2
  }
 
  .page-metadata .contributors {
