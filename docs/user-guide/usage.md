@@ -44,3 +44,21 @@ Toggles on/off to display help messages from Pinecil and PineSAM.
 1. set the number desired with the PineSAM ++plus++ ++minus++ buttons.
 2. then long hold the Preset 1/2 you want to save to, click OK on the confirmation box.
 3. it will save what is currently shown in the Set °C at the top.
+
+# Settings Categories
+
+- For familiarity, Settings are grouped in a similar way as seen on Pinecil (and as organized in Ralim's IronOS firmware).
+- Categories can be clicked to collapse and reduce screen clutter.
+- Setting numbers can be changed two ways: moving the slider or simply typing on the box next to the slider.
+- Drop-down menus are used for clarity of text choices.
+- Toggle choices are used for all check box items ballot_box_with_check seen on the pinecil (e.g. detailed idle).
+- Settings functions are listed [Ralim's IronOS here](https://ralim.github.io/IronOS/Settings/).
+<br>
+![Settings Categories](../img/categories.png)
+
+<details>
+<summary>
+Full settings view
+</summary>
+![Full Settings View](../img/full_settings.png)
+</details>

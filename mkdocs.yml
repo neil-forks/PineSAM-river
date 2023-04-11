@@ -106,8 +106,6 @@ markdown_extensions:
   - abbr
   - admonition
   - attr_list
-  - codehilite:
-      guess_lang: true
   - def_list
   - footnotes
   - md_in_html
@@ -133,3 +131,5 @@ markdown_extensions:
   - pymdownx.tasklist
   - toc:
       permalink: "🔗&#xFE0E;"
+      # for screenreaders
+      permalink_title: Anchor link to this section for reference
