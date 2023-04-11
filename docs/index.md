@@ -20,10 +20,10 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 <div style="clear: both;"></div>
 ## Platforms
- | System  | MacOS   | Linux  | Windows | iOS   | Android|
- | :-----: | :-----: | :----: | :-----: | :---: | :----: |
- | UI      |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
- | backend |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|       |         |
+ | System  | MacOS   | Linux  | Windows | Phones |
+ | :-----: | :-----: | :----: | :-----: | :---: |
+ | UI      |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
+ | backend |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|       |
 
 ## Features
 
