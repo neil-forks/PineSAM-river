@@ -1,5 +1,28 @@
+# Contributing & Support
 
-# MIT License
+:simple-githubsponsors: [Sponsor PineSAM work](https://github.com/sponsors/builder555)
+Open source projects take time and money. Sponsors are greatly appreciated at any amount, even a cup of coffee to get through debugging a new feature.
+
+## Bug Reports
+
+1. Read the documents and try to search the issue tracker to find the answer before posting a new issue.
+2. Follow the template in the issue ticket and include all details requested.
+3. Be prepared to answer questions or give additional information if required. Issues where the creator does not follow up to questions will be marked stale and closed.
+
+## Improve Documents
+
+If the documents are lacking or there is a typo, consider improving it or open an issue ticket if you are not comfortable digging into a full Github Pull Request.
+
+## Answer Questions in Issues
+
+Please share your experience to help others out by offering suggestions in issue tickets.
+
+## Pull Requests
+
+Contributions to code are welcome. Please submit all Pull Requests (PR) to the /dev branch. If there is no existing ticket related to the the PR submission, then create a ticket outlining what issues are being addressed.
+
+
+## MIT License
 
 Copyright (c) 2023 builder555
 

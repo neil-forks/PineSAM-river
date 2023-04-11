@@ -129,6 +129,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist
+      custom_checkbox: true
   - toc:
       permalink: "🔗&#xFE0E;"
       # for screenreaders
