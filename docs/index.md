@@ -9,7 +9,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 <div style="clear: both;"></div>
 
-??? example "Full settings view"
+??? info "Full settings view"
     
     ![Full Settings View](./img/full_settings.png)
 

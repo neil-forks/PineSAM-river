@@ -57,6 +57,6 @@ Toggles on/off to display help messages from Pinecil and PineSAM.
 <br>
 ![Settings Categories](../img/categories.png)
 
-??? example "Full settings view"
+??? info "Full settings view"
     
     ![Full Settings View](../img/full_settings.png)
