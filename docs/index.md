@@ -41,7 +41,7 @@ You can access the settings remotely once the app is running on the main PC/lapt
 * Find the [local IP address](https://lifehacker.com/how-to-find-your-local-and-external-ip-address-5833108) of the computer running the app.
 * Open `http://<ip-address>:8080/` on the second device on the same network (e.g., a phone).
 * Pinecil needs to be within BLE range of the computer running the PineSAM app.
-* Hint: if your PC is on a LAN, then also enable the wifi on it, and use that IP Address on the phone's browser.
+* Hint: if your pc is on a LAN, then also enable the wifi on it, and use that IP Address on the phone's browser.
 
 
 ## :octicons-book-24: References

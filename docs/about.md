@@ -11,26 +11,31 @@ Open source projects take time and funds. Sponsors are greatly appreciated at an
 2. Follow the template in the issue ticket and include all details requested.
 3. Be prepared to answer questions or give additional information if required. Issues where the creator does not follow up to questions will be marked stale and closed.
 
+
+## :material-chat-question-outline: Answer Questions in Issues
+
+Share your experience to help others by offering suggestions and solutions in issue tickets.
+
 ## :material-file-document-edit-outline: Improve Documents
 
 If the documents are lacking or there is a typo, consider improving it or open an issue ticket if you are not comfortable digging into a full Github Pull Request.
 
-## :material-tooltip-question: Answer Questions in Issues
+## :material-image-broken-variant: Test Features
 
-Share your experience to help others by offering suggestions and solutions in issue tickets.
+Test features on different devices and systems. Report on items not working as intended, or help debug and diagnose issues.
+
+## :material-eye-refresh-outline: Review Code
+
+Participate in code review of pull requests and direct commits. Make suggestions that improve code, error handling, and algorithms.
 
 ## :material-source-pull: Pull Requests
 
 Contributions to code are welcome. Please submit all Pull Requests (PR) to the /dev branch. If there is no existing ticket related to the the PR submission, then create a ticket outlining what issues are being addressed.
 
-## Review Code
 
-Participare in code review of pull requests and direct commits. Make suggestions that improve code, error handling, and algorithyms.
+## :material-scale-balance: MIT License
 
-
-## MIT License
-
-Copyright (c) 2023 builder555
+Copyright :fontawesome-regular-copyright: 2023 builder555
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
