@@ -88,6 +88,21 @@ plugins:
       # true if in CD/CI environment
       on_error_fail: true
 
+# zoom for images
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: true
+      caption_position: bottom
+
 # lower-right banner info, see extra.css for animation
 extra:
   social:
@@ -106,7 +121,6 @@ extra:
 markdown_extensions:
   - abbr
   - admonition
-
   - attr_list
   - def_list
   - footnotes
