@@ -44,6 +44,8 @@
     
       <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
     
+      <link rel="stylesheet" href="../../assets/stylesheets/fonts.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -532,8 +534,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../user-guide/settings/" class="md-nav__link">
-        Settings Categories
+      <a href="../../user-guide/debug/" class="md-nav__link">
+        Debug Category
       </a>
     </li>
   
@@ -601,13 +603,13 @@
 
   <h1>Troubleshooting</h1>
 
-<h2 id="known-issues"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2v2m3 8v-2h-1v-4h-3v2h1v2h-1v2h4M5 3h14a2 2 0 0 1 2 2v14c0 .53-.21 1.04-.59 1.41-.37.38-.88.59-1.41.59H5c-.53 0-1.04-.21-1.41-.59C3.21 20.04 3 19.53 3 19V5c0-1.11.89-2 2-2m14 16V5H5v14h14Z"/></svg></span> Known issues<a class="headerlink" href="#known-issues" title="Permanent link">🔗&#xFE0E;</a></h2>
+<h2 id="known-issues"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2v2m3 8v-2h-1v-4h-3v2h1v2h-1v2h4M5 3h14a2 2 0 0 1 2 2v14c0 .53-.21 1.04-.59 1.41-.37.38-.88.59-1.41.59H5c-.53 0-1.04-.21-1.41-.59C3.21 20.04 3 19.53 3 19V5c0-1.11.89-2 2-2m14 16V5H5v14h14Z"/></svg></span> Known issues<a class="headerlink" href="#known-issues" title="Anchor link to this section for reference">🔗&#xFE0E;</a></h2>
 <ol>
 <li>
 <p>Pinecil not detected</p>
 <ul>
 <li>possible reason: Pinecil is paired to computer/phone settings. solution: unpair it from all other places and reboot.</li>
-<li>possible reason: using older firmware (below 2.21). solution: <a href="https://github.com/Ralim/IronOS/discussions/1518#discussioncomment-4866637">flash</a> current <a href="https://github.com/Ralim/IronOS/suites/11876815030/artifacts/621223733">BLE firmware</a>; below IronOS 2.21 only BETA versions will work with PineSAM.</li>
+<li>possible reason: using older firmware (below 2.21). solution: <a href="https://github.com/Ralim/IronOS/discussions/1518#discussioncomment-4866637">flash</a> current <a href="https://github.com/Ralim/IronOS/releases">BLE firmware</a>; below IronOS 2.21 only BETA versions will work with PineSAM.</li>
 </ul>
 </li>
 <li>
@@ -628,12 +630,13 @@
 </ul>
 </li>
 <li>
-<p>See the <a href="https://github.com/builder555/PineSAM/discussions">Discussions</a> section for install hints and solutions to some common issues.</p>
+<p>See the <a href="https://github.com/builder555/PineSAM/discussions">Discussions</a> section for install hints, screenshot images, and solutions to common issues.</p>
 </li>
-<li>PineSAM usage <a href="https://github.com/builder555/PineSAM/wiki">instructions here</a>.</li>
-<li>Something else: <a href="https://github.com/builder555/PineSAM/issues">open an issue</a>.</li>
+<li>
+<p>Something else: <a href="https://github.com/builder555/PineSAM/issues">open an issue</a>.</p>
+</li>
 </ol>
-<h2 id="running-unit-tests"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.25 12a.75.75 0 0 1-.22.53l-2.75 2.75a.75.75 0 0 1-1.06-1.06L7.44 12 5.22 9.78a.75.75 0 1 1 1.06-1.06l2.75 2.75c.141.14.22.331.22.53Zm2 2a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5h-5Z"/><path d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V4.75a.25.25 0 0 0-.25-.25Z"/></svg></span> Running Unit tests<a class="headerlink" href="#running-unit-tests" title="Permanent link">🔗&#xFE0E;</a></h2>
+<h2 id="running-unit-tests"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.25 12a.75.75 0 0 1-.22.53l-2.75 2.75a.75.75 0 0 1-1.06-1.06L7.44 12 5.22 9.78a.75.75 0 1 1 1.06-1.06l2.75 2.75c.141.14.22.331.22.53Zm2 2a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5h-5Z"/><path d="M0 4.75C0 3.784.784 3 1.75 3h20.5c.966 0 1.75.784 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-.25a.25.25 0 0 0-.25.25v14.5c0 .138.112.25.25.25h20.5a.25.25 0 0 0 .25-.25V4.75a.25.25 0 0 0-.25-.25Z"/></svg></span> Running Unit tests<a class="headerlink" href="#running-unit-tests" title="Anchor link to this section for reference">🔗&#xFE0E;</a></h2>
 <div class="language-shell highlight"><span class="filename">run inside 'backend' folder</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pipenv<span class="w"> </span>run<span class="w"> </span><span class="nb">test</span>
 </span></code></pre></div>
 
@@ -669,7 +672,7 @@
             <span class="twemoji" title='Last update'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg> 
             </span>
-            <span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-04-09T11:34:53+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-04-09</span></span>
+            <span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-04-11T07:33:34+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-04-11</span></span>
         </div>
         
         
@@ -682,7 +685,11 @@
         
         
         <div class="metadata-item">
-            <div class="contributors" data-bi-name="contributors"><span><a href="https://github.com/River-Mochi" title="River-Mochi" data-bi-name="contributorprofile" target="_blank"><img src="https://avatars.githubusercontent.com/u/97197236?size=32" alt="River-Mochi" height: ></a></span></div>
+            <span class="twemoji" title='Contributors'>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+            </span>
+            <span>Github</span>
+            <div class="contributors" data-bi-name="contributors" title="Page Contributors"><span><a href="https://github.com/River-Mochi" title="River-Mochi" data-bi-name="contributorprofile" target="_blank"><img src="https://avatars.githubusercontent.com/u/97197236?size=32" alt="River-Mochi" height: ></a></span></div>
         </div>
         
     </div>
@@ -751,7 +758,7 @@
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2023 - present builder555 & contributors
+      Copyright &copy; 2023 Builder555
     </div>
   
   

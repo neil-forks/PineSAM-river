@@ -10,7 +10,7 @@
       
       
       
-        <link rel="canonical" href="https://builder555.github.io/PineSAM/user-guide/settings/">
+        <link rel="canonical" href="https://builder555.github.io/PineSAM/user-guide/debug/">
       
       
         <link rel="prev" href="../usage/">
@@ -23,7 +23,7 @@
     
     
       
-        <title>Settings Categories - </title>
+        <title>Debug Category - </title>
       
     
     
@@ -43,6 +43,8 @@
       <link rel="stylesheet" href="../../css/timeago.css">
     
       <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/fonts.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -73,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#settings-categories" class="md-skip">
+        <a href="#debug-data" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Settings Categories
+              Debug Category
             
           </span>
         </div>
@@ -497,40 +499,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Settings Categories
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Settings Categories
+        Debug Category
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#debug-data" class="md-nav__link">
-    Debug Data
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -588,7 +559,7 @@
                   
 
   
-    <a href="https://github.com/builder555/PineSAM/edit/dev/docs/user-guide/settings.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/builder555/PineSAM/edit/dev/docs/user-guide/debug.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -596,31 +567,13 @@
   
 
 
-<h1 id="settings-categories">Settings Categories<a class="headerlink" href="#settings-categories" title="Permanent link">🔗&#xFE0E;</a></h1>
+<h1 id="debug-data">Debug Data<a class="headerlink" href="#debug-data" title="Anchor link to this section for reference">🔗&#xFE0E;</a></h1>
 <ul>
-<li>For familiarity, Settings are grouped in a similar way as seen on Pinecil (and as organized in Ralim's IronOS firmware).</li>
-<li>Categories can be clicked to collapse and reduce screen clutter.</li>
-<li>Setting numbers can be changed two ways: moving the slider or simply typing on the box next to the slider.</li>
-<li>Drop-down menus are used for clarity of text choices.</li>
-<li>Toggle choices are used for all check box items ballot_box_with_check seen on the pinecil (e.g. detailed idle).</li>
-<li>Settings functions are listed <a href="https://ralim.github.io/IronOS/Settings/">Ralim's IronOS here</a>.
-<br>
-<img src="../assets/img/categories.png" width="800" ></li>
-</ul>
-<details>
-<summary>
-Full settings view
-</summary>
-<img src="../assets/img/full_settings.png">
-</details>
-
-<h2 id="debug-data">Debug Data<a class="headerlink" href="#debug-data" title="Permanent link">🔗&#xFE0E;</a></h2>
-<ul>
-<li>Debug is a special category in Pinecil that is usually hidden and not used unless troubleshooting an issue.</li>
-<li>On Pinecil, the debug menu is accesed by Long hold [-] and then use the [+] to scroll through the values (see here).</li>
+<li>Debug is a special category in Pinecil that is usually hidden and not used unless tracing an issue.</li>
+<li>On Pinecil, the debug menu is accessed by long hold <span class="keys"><kbd class="key-minus">-</kbd></span> and then using the <span class="keys"><kbd class="key-plus">+</kbd></span> to scroll through the values.</li>
 <li>PineSAM currently displays the raw values as sent by the Pinecil and does no change to the values; therefore, these may not match exactly what you see on the Pinecil Debug screen.</li>
-<li>Not all values are available yet, e.g., PD Debug values can only be seen on Pinecil.</li>
-<li>Debug functions are listed in <a href="https://ralim.github.io/IronOS/DebugMenu/">Ralim's IronOS here</a>.</li>
+<li>Not all values are available yet; go to Pinecil directly to see all items.</li>
+<li>Complete Debug functions are detailed in <a href="https://ralim.github.io/IronOS/DebugMenu/">Ralim's IronOS here</a>.</li>
 </ul>
 
   <!--
@@ -655,7 +608,7 @@ Full settings view
             <span class="twemoji" title='Last update'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg> 
             </span>
-            <span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-04-04T05:57:48+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-04-04</span></span>
+            <span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-04-11T10:51:13+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-04-11</span></span>
         </div>
         
         
@@ -663,12 +616,16 @@ Full settings view
             <span class="twemoji" title='Created'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23.5 17-5 5-3.5-3.5 1.5-1.5 2 2 3.5-3.5 1.5 1.5m-10.4 2.9c-.4.1-.7.1-1.1.1-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8c0 .4 0 .7-.1 1.1.7.1 1.3.3 1.9.6.1-.6.2-1.1.2-1.7 0-5.5-4.5-10-10-10S2 6.5 2 12s4.5 10 10 10c.6 0 1.2-.1 1.7-.2-.3-.5-.5-1.2-.6-1.9m2.5-5.8-3.1-1.8V7H11v6l3.5 2.1c.3-.4.7-.7 1.1-1Z"/></svg>
             </span>
-            <span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-03-29T11:48:10+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-03-29</span></span>
+            <span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2023-04-11T04:08:05+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2023-04-11</span></span>
         </div>
         
         
         <div class="metadata-item">
-            <div class="contributors" data-bi-name="contributors"><span><a href="https://github.com/River-Mochi" title="River-Mochi" data-bi-name="contributorprofile" target="_blank"><img src="https://avatars.githubusercontent.com/u/97197236?size=32" alt="River-Mochi" height: ></a></span></div>
+            <span class="twemoji" title='Contributors'>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+            </span>
+            <span>Github</span>
+            <div class="contributors" data-bi-name="contributors" title="Page Contributors"><span><a href="https://github.com/River-Mochi" title="River-Mochi" data-bi-name="contributorprofile" target="_blank"><img src="https://avatars.githubusercontent.com/u/97197236?size=32" alt="River-Mochi" height: ></a></span></div>
         </div>
         
     </div>
@@ -737,7 +694,7 @@ Full settings view
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2023 - present builder555 & contributors
+      Copyright &copy; 2023 Builder555
     </div>
   
   
