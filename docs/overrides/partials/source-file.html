@@ -43,7 +43,11 @@
         {% endif %}
         {% if committers %}
         <div class="metadata-item">
-            <div class="contributors" data-bi-name="contributors">
+            <span class="twemoji" title='Contributors'>
+                {% include ".icons/fontawesome/brands/github-alt.svg" %}
+            </span>
+            <span>Github</span>
+            <div class="contributors" data-bi-name="contributors" title="Page Contributors">
                 {%- for user in committers -%}
                     <span><a href="{{ user.url }}" title="{{ user.name }}" data-bi-name="contributorprofile" target="_blank"><img src="{{ user.avatar }}?size=32" alt="{{ user.name }}" height: ></a></span>
                 {%- endfor -%}
