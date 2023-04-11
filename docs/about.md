@@ -30,8 +30,10 @@ Participate in code review of pull requests and direct commits. Make suggestions
 ## :material-source-pull: Pull Requests
 
 Contributions to code are welcome. Please submit all Pull Requests (PR) to the /dev branch. If there is no existing ticket related to the the PR submission, then create a ticket outlining what issues are being addressed.
+<br>
 
 
+---
 ## :material-scale-balance: MIT License
 
 Copyright :fontawesome-regular-copyright: 2023 builder555
