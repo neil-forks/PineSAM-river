@@ -67,6 +67,7 @@ theme:
 # For Fonts Privacy
 extra_css:
   - assets/stylesheets/extra.css
+  - assets/stylesheets/fonts.css
 
 extra_javascripts:
   - assets/javascripts/extra.js
