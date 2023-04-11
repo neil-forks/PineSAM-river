@@ -3,11 +3,11 @@
 
 ## :simple-githubsponsors:{ .githubsponsors } [Sponsor PineSAM](https://github.com/sponsors/builder555)
 
-Open source projects take time and funds. Sponsors are greatly appreciated at any amount, even a cup of coffee to get through debugging a new feature.
+If you find the project useful, then consider sponsoring what you can, even a cup of coffee to get through debugging a new feature.
 
 ## :material-alien-outline: Bug Reports
 
-1. Read the documents and try to search the issue tracker to find answers before posting a new issue.
+1. Try to read the documents and search the issue tracker to find answers before posting a new issue.
 2. Follow the template in the issue ticket and include all details requested.
 3. Be prepared to answer questions or give additional information if required. Issues where the creator does not follow up to questions will be marked stale and closed.
 
@@ -29,7 +29,7 @@ Participate in code review of pull requests and direct commits. Make suggestions
 
 ## :material-source-pull: Pull Requests
 
-Code contributions are welcome. Please fork the code and submit all Pull Requests (PR) to the **/dev** branch. Check out some of the open issue tickets or propose new features. If there is no existing ticket related to the PR, then create a ticket outlining what issues are being addressed.
+Code contributions are welcome. Just fork the code and submit one or more well commented and clean commits to the repository. Perform a pull pequests (pr) to the **/dev** branch. Check out some of the open issue tickets or propose new features. If there is no existing ticket related to the PR, then create a ticket outlining what issues are being addressed.
 <br><br>
 
 ---

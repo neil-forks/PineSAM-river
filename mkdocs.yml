@@ -20,7 +20,7 @@ theme:
   logo: img/PineSAM_logo-A017A5.png
   icon:
     edit: material/file-edit-outline
-    repo: fontawesome/brands/github
+    repo: fontawesome/brands/github-alt
   # Don't auto-load Google fonts- Privacy issue
   font: false
   language: en
@@ -64,7 +64,7 @@ theme:
     # adds a copy button to all codeblocks for convenience
     - content.code.copy
 
-
+# Customization
 extra_css:
   - assets/stylesheets/extra.css
   # For Privacy - defines/uses local fonts
@@ -88,7 +88,7 @@ plugins:
       # true if in CD/CI environment
       on_error_fail: true
 
-# lower-right banner info
+# lower-right banner info, see extra.css for animation
 extra:
   social:
     - icon: simple/githubsponsors

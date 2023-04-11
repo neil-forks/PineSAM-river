@@ -10,7 +10,7 @@ Just download the latest [release](https://github.com/builder555/PineSAM/release
 * Extract the downloaded zip file for Mac or Linux from [here](https://github.com/builder555/PineSAM/releases/latest).
    
    
-``` sh title="run in a terminal"
+``` sh title="Run in a terminal"
 ./start.sh
 ```
    
@@ -18,7 +18,7 @@ Just download the latest [release](https://github.com/builder555/PineSAM/release
 * Some Linux distros may need http://localhost:8080/ opened manually.
 * To run from a phone [see :material-cellphone-nfc:](../index.md#remote-access)
 * User [guide here](../user-guide/usage.md).
-* See [Troubleshooting](troubleshooting.md) for more help.
+* See [Troubleshooting](troubleshooting.md) for help.
 
 ## :fontawesome-brands-windows: Windows
 
@@ -26,7 +26,7 @@ Just download the latest [release](https://github.com/builder555/PineSAM/release
 * Right-click the zip > properties, if it has an Unblock option, then unblock and extract the zip ([reference](https://github.com/builder555/PineSAM/discussions/106#discussion-4960445)).
 * Inside powershell, change to the directory where the files were extracted.
 
-``` console title="run powershell, path may differ from example"
+``` console title="Run powershell, path may differ from example"
 C:\> cd .\Downloads\PineSAM\
 C:\> .\start.ps1
 ```
@@ -46,4 +46,4 @@ C:\> .\start.ps1
 C:\> Set-ExecutionPolicy RemoteSigned
 ```
 
-* See [Troubleshooting](troubleshooting.md) for more help.
+* See [Troubleshooting](troubleshooting.md) for help.

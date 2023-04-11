@@ -2,7 +2,7 @@
 ## :material-information-slab-box-outline: Known issues
 
 1. Pinecil not detected
-    * possible reason: Pinecil is paired to computer/phone settings. solution: unpair it from all other places and reboot.
+    * possible reason: pinecil is paired to computer/phone settings. solution: unpair it from all other places and reboot.
     * possible reason: using older firmware (below 2.21). solution: [flash](https://github.com/Ralim/IronOS/discussions/1518#discussioncomment-4866637) current [BLE firmware](https://github.com/Ralim/IronOS/releases); below IronOS 2.21 only BETA versions will work with PineSAM.
 
 2. bleak causes Python to crash on Mac: https://github.com/hbldh/bleak/issues/768
@@ -17,9 +17,9 @@
   
 5. See the [Discussions](https://github.com/builder555/PineSAM/discussions) section for install hints, screenshot images, and solutions to common issues.
 
-6. Something else: [open an issue](https://github.com/builder555/PineSAM/issues).
+6. Something else: [open an issue :octicons-issue-opened-16:](https://github.com/builder555/PineSAM/issues).
 
 ## :octicons-terminal-24: Running Unit tests 
-```shell title="run inside 'backend' folder"
+```shell title="Run inside 'backend' folder"
 pipenv run test
 ```

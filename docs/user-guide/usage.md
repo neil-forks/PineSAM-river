@@ -5,7 +5,7 @@
 3. Current PineSAM version number is next to the Github Cat in the top right.
 4. Clicking on the waving cat links to the main Github repository.
 5. Temperature automatically adjusts based on °C or °F setting.
-6. Colors are designed to work in Light or Dark view mode on all browsers.
+6. Colors are designed to work in Light or Dark mode on all browsers.
 
 ## :fontawesome-solid-toggle-off: Show Hints
 
@@ -36,9 +36,9 @@ Toggles on/off to display help messages from Pinecil and PineSAM.
 
 ### Preset buttons
 
-1. Allows quick change of user customized temperatures (exclusive to PineSAM and not available on the Pinecil iron directly).
-2. Preset buttons can be customized and saved instantly to a desired temperature.
-3. Presets are stored in the browser's [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and will persist if the same browser and device are used again.
+1. Two Preset buttons are available above the power icons. They are exclusive to PineSAM and not available on the Pinecil iron directly.
+2. Presets allow quick change of user customized temperatures and can be saved instantly to a desired temperature.
+3. Presets are stored in the browser's [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and persist if the same browser and device are used again.
 
 ### Preset Save
 
