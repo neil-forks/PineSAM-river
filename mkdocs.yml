@@ -17,7 +17,7 @@ theme:
   name: material
   custom_dir: docs/overrides
   favicon: img/favicon.ico
-  logo: img/PineSAM_logo-A017A5.png
+  logo: img/logo-A017A5.png
   icon:
     edit: material/file-edit-outline
     repo: fontawesome/brands/github-alt
