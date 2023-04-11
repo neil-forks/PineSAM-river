@@ -21,7 +21,7 @@ theme:
   icon:
     edit: material/file-edit-outline
     repo: fontawesome/brands/github
-# Don't load from Google fonts
+  # Don't auto-load Google fonts- Privacy issue
   font: false
   language: en
 
@@ -61,10 +61,10 @@ theme:
     - search.suggest
     - toc.integrate
     - content.action.edit
-    # adds a copy button to all codeblocks for user convenience
+    # adds a copy button to all codeblocks for convenience
     - content.code.copy
 
-# For Fonts Privacy
+# For Privacy - defines/uses local fonts
 extra_css:
   - assets/stylesheets/extra.css
   - assets/stylesheets/fonts.css
