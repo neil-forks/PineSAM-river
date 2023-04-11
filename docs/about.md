@@ -5,22 +5,22 @@
 
 Open source projects take time and funds. Sponsors are greatly appreciated at any amount, even a cup of coffee to get through debugging a new feature.
 
-## :material-ladybug: Bug Reports
+## :material-alien-outline: Bug Reports
 
 1. Read the documents and try to search the issue tracker to find answers before posting a new issue.
 2. Follow the template in the issue ticket and include all details requested.
 3. Be prepared to answer questions or give additional information if required. Issues where the creator does not follow up to questions will be marked stale and closed.
 
 
-## :material-chat-question-outline: Answer Questions in Issues
+## :material-chat-question-outline: Issue Tickets
 
-Share your experience to help others by offering suggestions and solutions in issue tickets.
+Answer questions in issue tickets. Share your experience to help others by offering suggestions and solutions in issue tickets.
 
 ## :material-file-document-edit-outline: Improve Documents
 
 If the documents are lacking or there is a typo, consider improving it or open an issue ticket if you are not comfortable digging into a full Github Pull Request.
 
-## :material-image-broken-variant: Test Features
+## :material-car-brake-alert: Test Features
 
 Test features on different devices and systems. Report on items not working as intended, or help debug and diagnose issues.
 
