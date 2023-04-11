@@ -25,7 +25,7 @@ Toggles on/off to display help messages from Pinecil and PineSAM.
 
 ## Work HUD
 
-![PineSAM Work View - HUD (Heads Up Display) detailed](../img/workHUD-detailed.png){ align=left width=350 style="margin-top: -1rem" float="left" }
+![PineSAM Work View - HUD (Heads Up Display) detailed](../img/workHUD-detailed.png){ align="left" width="400" style="margin-top: -1rem" float="left" }
 
 1. This is a HUD window designed as an all-in-one single view that can be used during soldering.
 2. Phone: designed to be completely viewable on vertical screen.
@@ -37,13 +37,13 @@ Toggles on/off to display help messages from Pinecil and PineSAM.
 
 1. Allows quick change of user customizable temperatures (exclusive to PineSAM and not available on Pinecil iron directly).
 2. Preset buttons can be customized and saved instantly to desired temperature.
-3. Presets are saved to the html file where the python script is running and will persist if one uses the same PC again.
+3. Presets are stored in the browser's [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and will persist if the same browser and device are used again.
 
 ### Preset Save
 
-1. set the number desired with the PineSAM ++plus++ ++minus++ buttons.
-2. then long hold the Preset 1/2 you want to save to, click OK on the confirmation box.
-3. it will save what is currently shown in the Set °C at the top.
+1. Set the number desired with the PineSAM ++plus++ ++minus++ buttons.
+2. Then long hold the Preset 1 or 2 you want to save to, click OK on the confirmation box.
+3. Whatever is shown iat the top in the Set °C will be saved to the Preset button held down.
 
 # Settings Categories
 
@@ -51,7 +51,7 @@ Toggles on/off to display help messages from Pinecil and PineSAM.
 - Categories can be clicked to collapse and reduce screen clutter.
 - Setting numbers can be changed two ways: moving the slider or simply typing on the box next to the slider.
 - Drop-down menus are used for clarity of text choices.
-- Toggle choices are used for all check box items ballot_box_with_check seen on the pinecil (e.g. detailed idle).
+- Toggle choices are used for any check boxes  seen on the pinecil (e.g. detailed idle).
 - Settings functions are listed [Ralim's IronOS here](https://ralim.github.io/IronOS/Settings/).
 <br>
 ![Settings Categories](../img/categories.png)
