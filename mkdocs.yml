@@ -72,7 +72,6 @@ extra_css:
 extra_javascripts:
   - assets/javascripts/extra.js
 
-
 # Plugins
 plugins:
   - autolinks
@@ -105,14 +104,13 @@ extra:
 # Extensions
 markdown_extensions:
   - abbr
+  - admonition
   - attr_list
-  - md_in_html
-  # Table of Contents
-  - toc:
-      permalink: "🔗&#xFE0E;"
   - codehilite:
       guess_lang: true
-
+  - def_list
+  - footnotes
+  - md_in_html
   # built-in icons: material, fontAwesome, octicons, simple
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
@@ -133,9 +131,5 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist
-
-  # call-outs of side content
-  - admonition
-  - footnotes
-  - def_list
-
+  - toc:
+      permalink: "🔗&#xFE0E;"
