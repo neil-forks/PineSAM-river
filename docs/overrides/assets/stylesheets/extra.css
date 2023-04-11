@@ -68,3 +68,7 @@
 .md-social a:hover {
      animation: md-social linear 1000ms infinite;
 }
+
+.githubsponsors {
+    color: #a017a5;
+}
