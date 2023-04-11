@@ -11,9 +11,9 @@
 
 Toggles on/off to display help messages from Pinecil and PineSAM.
 
-## :fontawesome-solid-toggle-off: Save Changes to Flash
+## :fontawesome-solid-toggle-off: Save to Flash
 
-- This should be `Off` most of the time. Not needed if actively soldering and using the Work HUD to change temperature (preserves flash cycles).
+- Save changes to flash should be `Off` most of the time. Not needed if actively soldering and using the Work HUD to change temperature (preserves flash cycles).
 - Toggle this `On` only before changing settings and if you want the settings to persist on Pinecil reboot. This saves/flashes to the BL706 MCU chip.
 
 ## Change Settings

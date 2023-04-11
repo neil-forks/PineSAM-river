@@ -33,7 +33,7 @@ chmod +x run-dev.sh
 
 * On a Mac, PineSAM will automatically open http://localhost:8080 will open in your default browser.
 * Some Linux distros may need http://localhost:8080 opened manually. Debian12 hints [here](https://github.com/builder555/PineSAM/discussions/47#discussion-4884758).
-* To run from a phone [see :fontawesome-solid-wifi:](../index.md#remote-access)
+* To run from a phone [see :material-cellphone-nfc:](../index.md#remote-access)
 * See [Troubleshooting](troubleshooting.md) for more help.
 <br>
   
@@ -68,5 +68,5 @@ Change directory (`cd`) into the PineSAM folder that was extracted above.
 .\run-dev.bat     # run this command every time to start PineSAM (do not need to run as admin)
 ```
 
-* To run from a phone [see :fontawesome-solid-wifi:](../index.md#remote-access)
+* To run from a phone [see :material-cellphone-nfc:](../index.md#remote-access)
 * See [Troubleshooting](troubleshooting.md) for more help.

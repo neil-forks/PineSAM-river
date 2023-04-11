@@ -11,18 +11,17 @@ Open source projects take time and funds. Sponsors are greatly appreciated at an
 2. Follow the template in the issue ticket and include all details requested.
 3. Be prepared to answer questions or give additional information if required. Issues where the creator does not follow up to questions will be marked stale and closed.
 
-
 ## :material-chat-question-outline: Issue Tickets
 
 Answer questions in issue tickets. Share your experience to help others by offering suggestions and solutions in issue tickets.
 
-## :material-file-document-edit-outline: Improve Documents
-
-If the documents are lacking or there is a typo, consider improving it or open an issue ticket if you are not comfortable digging into a full Github Pull Request.
-
-## :material-car-brake-alert: Test Features
+## :octicons-beaker-16: Test Features
 
 Test features on different devices and systems. Report on items not working as intended, or help debug and diagnose issues.
+
+## :material-file-edit-outline: Improve Documents
+
+If the documents are lacking or there is a typo, consider improving it or open an issue ticket if you are not comfortable digging into a full Github Pull Request.
 
 ## :material-eye-refresh-outline: Review Code
 

@@ -14,10 +14,9 @@ Just download the latest [release](https://github.com/builder555/PineSAM/release
 ./start.sh
 ```
    
-
 * On MacOS, http://localhost:8080/ opens in your browser automatically.
 * Some Linux distros may need http://localhost:8080/ opened manually.
-* To run from a phone [see :fontawesome-solid-wifi:](../index.md#remote-access).
+* To run from a phone [see :material-cellphone-nfc:](../index.md#remote-access)
 * User [guide here](../user-guide/usage.md).
 * See [Troubleshooting](troubleshooting.md) for more help.
 
@@ -35,7 +34,7 @@ C:\> .\start.ps1
 * Accept any pop-up warnings about "serve.exe" and "main_sever.exe" ([reference](https://github.com/builder555/PineSAM/discussions/106#discussion-4960445)).
 
 * Your default browser will automatically open http://localhost:8080
-* To run from a phone [see :fontawesome-solid-wifi:](../index.md#remote-access).
+* To run from a phone [see :material-cellphone-nfc:](../index.md#remote-access)
 * User [guide here](../user-guide/usage.md).
 <br>
 

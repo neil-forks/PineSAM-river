@@ -1,7 +1,6 @@
-# Pinecil Settings and Menus
 
 ![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=left width=350  float="left" }
-
+# Pinecil Settings and Menus
 Why focus on soldering when you can play with the settings instead? With this app you have full control over your new shiny Pinecil V2 from your computer using bluetooth.
 
 **NB:** No special browser flags or BLE GATT required; works on all major OS and phones.
@@ -16,6 +15,8 @@ Why focus on soldering when you can play with the settings instead? With this ap
   </summary>
   ![Full Settings View](img/full_settings.png)
 </details>
+
+
 
 <div style="clear: both;"></div>
 ## Platforms
@@ -33,8 +34,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 -  Preset buttons allow quick change of user defined temperatures (PineSAM extra feature not available directly inside Pinecil).
 -  Backend runs locally on all major platforms/OS while the user interface runs on your favorite browser.
 
-
-## :fontawesome-solid-wifi: Remote access
+## :material-cellphone-nfc: Remote access
 
 You can access the settings remotely once the app is running on the main PC/laptop.
 
