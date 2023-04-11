@@ -5,9 +5,9 @@
 
 Open source projects take time and funds. Sponsors are greatly appreciated at any amount, even a cup of coffee to get through debugging a new feature.
 
-## :material-shield-bug-outline: Bug Reports
+## :material-ladybug: Bug Reports
 
-1. Read the documents and try to search the issue tracker to find the answer before posting a new issue.
+1. Read the documents and try to search the issue tracker to find answers before posting a new issue.
 2. Follow the template in the issue ticket and include all details requested.
 3. Be prepared to answer questions or give additional information if required. Issues where the creator does not follow up to questions will be marked stale and closed.
 
@@ -17,7 +17,7 @@ If the documents are lacking or there is a typo, consider improving it or open a
 
 ## :material-tooltip-question: Answer Questions in Issues
 
-Please share your experience to help others out by offering suggestions in issue tickets.
+Share your experience to help others by offering suggestions and solutions in issue tickets.
 
 ## :material-source-pull: Pull Requests
 
