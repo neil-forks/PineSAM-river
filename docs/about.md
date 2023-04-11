@@ -1,7 +1,7 @@
 
 # Contribute & Support
 
-## :simple-githubsponsors:{ .githubsponsors } [Sponsor PineSAM](https://github.com/sponsors/builder555)
+## :simple-githubsponsors:  [Sponsor PineSAM](https://github.com/sponsors/builder555)
 
 Open source projects take time and funds. Sponsors are greatly appreciated at any amount, even a cup of coffee to get through debugging a new feature.
 

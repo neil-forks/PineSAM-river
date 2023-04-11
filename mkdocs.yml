@@ -64,9 +64,10 @@ theme:
     # adds a copy button to all codeblocks for convenience
     - content.code.copy
 
-# For Privacy - defines/uses local fonts
+
 extra_css:
   - assets/stylesheets/extra.css
+  # For Privacy - defines/uses local fonts
   - assets/stylesheets/fonts.css
 
 extra_javascripts:
