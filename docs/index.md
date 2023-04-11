@@ -1,5 +1,5 @@
 
-![PineSAM Work View - Heads Up Display (HUD)](img/workHUD.png){ align=left width=350  float="left" }
+![PineSAM Work View - Heads Up Display (HUD)](./img/workHUD.png){ align=left width=350  float="left" }
 # Pinecil Settings and Menus
 Why focus on soldering when you can play with the settings instead? With this app you have full control over your new shiny Pinecil V2 from your computer using bluetooth.
 
@@ -9,23 +9,19 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 <div style="clear: both;"></div>
 
-<details markdown>
-  <summary>
-    Full settings view
-  </summary>
-  ![Full Settings View](img/full_settings.png)
-</details>
-
-
+??? example "Full settings view"
+    
+    ![Full Settings View](./img/full_settings.png)
 
 <div style="clear: both;"></div>
-## Platforms
+
+## Supports
  | System  | :material-apple: MacOS   | :simple-linux: Linux  | :material-microsoft-windows: Windows | :material-cellphone-wireless: Phones |
  | :-----: | :-----: | :----: | :-----: | :---: |
  | UI      |:octicons-check-16:|:octicons-check-16:|:octicons-check-16:|:octicons-check-16:|
  | backend |:octicons-check-16:|:octicons-check-16:|:octicons-check-16:|       |
 
-## Features
+## :material-format-list-group: Features
 
 -  Automatically detect Pinecil V2 over BLE.
 - Control all settings on the device.
@@ -51,6 +47,6 @@ You can access the settings remotely once the app is running on the main PC/lapt
 - [Pinecil Web UI](https://github.com/joric/pinecil) - A neat web-based UI, requires bluetooth browser support
 - [Pinecil Authenticity Checker](https://pinecil.pine64.org/) - almost all AliExpress Pinecils are fake, check your V2!
 
-## :octicons-star-24: Contributors Welcome
+## :octicons-star-24: Contributors
 
-Please fork the repo, and submit Pull Requests using the `/dev` branch. Check out some of the open issue tickets or propose new features.
+Help is welcome at all levels from coding to a cup of coffee, please see [here](about.md).

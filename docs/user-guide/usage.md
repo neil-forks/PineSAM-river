@@ -32,6 +32,7 @@ Toggles on/off to display help messages from Pinecil and PineSAM.
 4. Thermostat icon changes into 100 different color hues as the live temperature changes.
 5. Power Bar: bottom bar shows the input voltage, the current estimated watts pinecil is drawing, and the highest peak watt hit during the session.
 6. It is best to leave save to flash toggle Off while using the Work HUD to save on pinecil flash cycles as the PineSAM buttons are used often during a soldering session.
+<div style="clear: both;"></div>
 
 ### Preset buttons
 
@@ -52,14 +53,10 @@ Toggles on/off to display help messages from Pinecil and PineSAM.
 - Setting numbers can be changed two ways: moving the slider or simply typing on the box next to the slider.
 - Drop-down menus are used for clarity of text choices.
 - Toggle :fontawesome-solid-toggle-off: choices are used for any check boxes :octicons-checkbox-16: seen on the pinecil (e.g. detailed idle).
-- Settings functions are listed [Ralim's IronOS here](https://ralim.github.io/IronOS/Settings/).
+- See setting feature details in [Ralim's IronOS here](https://ralim.github.io/IronOS/Settings/).
 <br>
 ![Settings Categories](../img/categories.png)
 
-
-<details markdown>
-  <summary>
-    Full settings view
-  </summary>
-  ![Full Settings View](../img/full_settings.png)
-</details>
+??? example "Full settings view"
+    
+    ![Full Settings View](../img/full_settings.png)

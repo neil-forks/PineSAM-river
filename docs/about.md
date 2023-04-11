@@ -13,7 +13,7 @@ Open source projects take time and funds. Sponsors are greatly appreciated at an
 
 ## :material-chat-question-outline: Issue Tickets
 
-Answer questions in issue tickets. Share your experience to help others by offering suggestions and solutions in issue tickets.
+Help answer questions in issue tickets. Share your experience to help others by offering suggestions and solutions in issues.
 
 ## :octicons-beaker-16: Test Features
 
@@ -29,7 +29,7 @@ Participate in code review of pull requests and direct commits. Make suggestions
 
 ## :material-source-pull: Pull Requests
 
-Contributions to code are welcome. Please submit all Pull Requests (PR) to the /dev branch. If there is no existing ticket related to the the PR submission, then create a ticket outlining what issues are being addressed.
+Code contributions are welcome. Please fork the code and submit all Pull Requests (PR) to the **/dev** branch. Check out some of the open issue tickets or propose new features. If there is no existing ticket related to the PR, then create a ticket outlining what issues are being addressed.
 <br><br>
 
 ---

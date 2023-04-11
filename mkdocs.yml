@@ -106,6 +106,7 @@ extra:
 markdown_extensions:
   - abbr
   - admonition
+
   - attr_list
   - def_list
   - footnotes

@@ -1,4 +1,4 @@
-# Install dev version from scripts
+# Build dev version from scripts
 
 Use this development (dev) version if there is an issue with the premade binaries or you want to do PineSAM dev.
 
