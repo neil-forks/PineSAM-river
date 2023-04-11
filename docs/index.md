@@ -20,10 +20,10 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 <div style="clear: both;"></div>
 ## Platforms
- | System  | MacOS   | Linux  | Windows | Phones |
+ | System  | :material-apple: MacOS   | :simple-linux: Linux  | :material-microsoft-windows: Windows | :material-cellphone-wireless: Phones |
  | :-----: | :-----: | :----: | :-----: | :---: |
- | UI      |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|
- | backend |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|       |
+ | UI      |:octicons-check-16:|:octicons-check-16:|:octicons-check-16:|:octicons-check-16:|
+ | backend |:octicons-check-16:|:octicons-check-16:|:octicons-check-16:|       |
 
 ## Features
 
