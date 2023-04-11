@@ -1,8 +1,7 @@
-# Use local fonts for privacy, add font: false to mkdocs.yml
-# override default text/code in :root to use new fonts @font-face
 
-
-/* see fonts.css */
+/* Use local fonts for privacy, add to mkdocs.yml font: false */
+/* override default text and code in :root to use new fonts @font-face */
+/* see fonts.css for list of local fonts */
 :root {
     --md-text-font: "Roboto";
     --md-code-font: "Roboto Mono";
