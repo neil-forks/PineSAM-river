@@ -71,18 +71,5 @@
 
 /* About page */
 .githubsponsors {
-    color: #a017a5;
+  color: #a017a5;
 }
-
-@keyframes githubsponsors {
-    0%, 40%, 80%, 100% {
-      transform: scale(1);
-    }
-    20%, 60% {
-      transform: scale(1.15);
-    }
-  }
-  .heart {
-    animation: githubsponsors 1000ms infinite;
-  }
-  
