@@ -83,7 +83,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
       type: timeago
-  - awesome-pages:
+  - awesome-pages
   - macros:
       # true if in CD/CI environment
       on_error_fail: true
@@ -132,5 +132,5 @@ markdown_extensions:
       alternate_style: true
   - toc:
       permalink: "🔗&#xFE0E;"
-      # for screenreaders
+      # for screen readers
       permalink_title: Anchor link to this section for reference

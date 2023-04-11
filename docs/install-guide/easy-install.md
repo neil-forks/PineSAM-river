@@ -27,7 +27,7 @@ Just download the latest [release](https://github.com/builder555/PineSAM/release
 * Inside powershell, change to the directory where the files were extracted.
 
 ``` console title="run powershell, path may differ from example"
-C:\> cd .\Downloads\PineSAM-Windows-x64-v1.13.3\
+C:\> cd .\Downloads\PineSAM\
 C:\> .\start.ps1
 ```
 
