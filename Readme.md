@@ -4,7 +4,8 @@
 [![Latest release](https://img.shields.io/github/v/release/builder555/pinesam?color=7700b3)](https://github.com/builder555/PineSAM/releases/latest)
 ![bluetooth](https://custom-icon-badges.demolab.com/badge/-bluetooth-7700b3.svg?logo=bluetooth&logoColor=white)
 <br><br>
-<img src="./docs/img/PineSAM_logo-A017A5.png" align="left" width="150" height="48" style="float:left"> <br clear="left" />
+
+<img src="./docs/img/logo-A017A5.png" align="left" width="150" height="48" style="float:left"> <br clear="left" />
 ---
 <br>
 <img src="./docs/img/workHUD.png" align="right" width="350" style="float:left">
