@@ -84,9 +84,11 @@ plugins:
       enable_creation_date: true
       type: timeago
   - awesome-pages
+  - open-in-new-tab
   - macros:
       # true if in CD/CI environment
       on_error_fail: true
+  
 
 # zoom for images
   - glightbox:
