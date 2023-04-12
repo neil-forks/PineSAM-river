@@ -10,7 +10,7 @@
 <br>
 <img src="./docs/img/workHUD.png" align="right" width="350" style="float:left">
 
-#### PineSAM = Pinecil Settings and Menus
+#### Pinecil Settings and Menus
 
 Why focus on soldering when you can play with the settings instead? With this app you have full control over your new shiny Pinecil V2 from your computer using bluetooth.
 
