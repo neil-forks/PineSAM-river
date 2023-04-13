@@ -70,7 +70,7 @@ Why focus on soldering when you can play with the settings instead? With this ap
 
 ## II. Build the Dev version (Source-all-_.zip)
 
-This ultimately creates the same PineSAM as in the premade binaries. Install this if there is an issue with the binaries or you are doing dev work.  
+Install this if there is an issue with the the premade binaries or you are doing dev work.  This creates the same PineSAM as in the premade binaries from [Easy Method](https://github.com/builder555/PineSAM#i-easy-method)
 For the backend script, first install:
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [python 3](https://www.python.org/downloads/) (tested with 3.10/3.11)
@@ -148,7 +148,7 @@ You can access the settings remotely once the app is running on the main PC/lapt
 
 2. Pinecil not detected
     * possible reason: you paired your Pinecil using system settings. solution: unpair it from all other places.  
-    * possible reason: using older firmware (below 2.21). solution: [flash](https://github.com/Ralim/IronOS/discussions/1518#discussioncomment-4866637) current [BLE firmware](https://github.com/Ralim/IronOS/suites/11876815030/artifacts/621223733); below IronOS 2.21 only BETA versions will work with PineSAM.
+    * possible reason: using older firmware (below 2.21). solution: [flash](https://github.com/Ralim/IronOS/discussions/1518#discussioncomment-4866637) current [BLE firmware](https://github.com/Ralim/IronOS/releases); below IronOS 2.21 only BETA versions with BLE will work with PineSAM.
     
 3. main_server script terminal crashes on start of script: incompatible version of IronOS, check/update firmware see above.
 
